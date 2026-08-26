@@ -1,6 +1,6 @@
 'use client'
 import { useEffect, useLayoutEffect, useState, memo, useCallback } from 'react'
-import { MotionConfig } from 'motion/react'
+import { MotionConfig, MotionGlobalConfig } from 'motion/react'
 import { useDeck } from '@/hooks/useDeck'
 import { SlideNarrator } from '@/components/deck/SlideNarrator'
 import { PortraitPrompt } from '@/components/deck/PortraitPrompt'
@@ -14,6 +14,10 @@ declare global {
 
 const CI_SKIP_ANIMATIONS = process.env.NEXT_PUBLIC_E2E === 'true'
 const STARTED_KEY = 'letiv-mobile-started'
+
+// skipAnimations is a global runtime flag, not a MotionConfig prop — apply it
+// once at module load so E2E runs disable animations before anything mounts.
+MotionGlobalConfig.skipAnimations = CI_SKIP_ANIMATIONS
 
 export default function MobileLayout({ children }: { children: React.ReactNode }) {
   const { setDeckReady, deckReady, narrationEnabled, setNarrationEnabled } = useDeck()
@@ -62,7 +66,7 @@ export default function MobileLayout({ children }: { children: React.ReactNode }
 
   return (
     <main data-testid="mobile-deck-shell" aria-label="Letiverse AI Investment Deck — Mobile" style={{ overflow: 'hidden' }}>
-      <MotionConfig skipAnimations={CI_SKIP_ANIMATIONS}>
+      <MotionConfig>
         {children}
         <div data-testid="mobile-narration-host">
           <SlideNarrator />

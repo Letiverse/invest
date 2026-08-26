@@ -1,12 +1,16 @@
 'use client'
 import { useEffect, useLayoutEffect } from 'react'
 import dynamic from 'next/dynamic'
-import { MotionConfig } from 'motion/react'
+import { MotionConfig, MotionGlobalConfig } from 'motion/react'
 import { useDeckStore } from '@/store/deckStore'
 import { TOTAL_SLIDES } from '@/lib/slides'
 
 // NEXT_PUBLIC_E2E is baked into the bundle at build time by CI workflows.
 const CI_SKIP_ANIMATIONS = process.env.NEXT_PUBLIC_E2E === 'true'
+
+// skipAnimations is a global runtime flag, not a MotionConfig prop — apply it
+// once at module load so E2E runs disable animations before anything mounts.
+MotionGlobalConfig.skipAnimations = CI_SKIP_ANIMATIONS
 
 const DeckController = dynamic(
   () => import('@/components/deck/DeckController').then(m => m.DeckController),
@@ -62,7 +66,7 @@ export function DesktopSlidePageWrapper({ slideNum }: Props) {
   }, [])
 
   return (
-    <MotionConfig skipAnimations={CI_SKIP_ANIMATIONS}>
+    <MotionConfig>
       <DeckController />
     </MotionConfig>
   )
