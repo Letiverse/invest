@@ -30,10 +30,9 @@ const HOSTS: Host[] = [
   { entity: 'E029', name: 'West Kent Shooting',           years: 6,  imgSrc: blobUrl('/slides/media/image41.png') },
   { entity: 'E042', name: 'Safe Haven Animal Rescue',     years: 5,  imgSrc: blobUrl('/slides/media/image39.png') },
   { entity: 'E045', name: 'Soar Trampoline Park',         years: 4,  imgSrc: blobUrl('/slides/media/image40.png') },
-  // TODO: logos pending from Liam — swap in blobUrl(...) once supplied.
-  { entity: 'E057', name: 'Billericay Town FC',           years: 4 },
-  { entity: 'E058', name: 'Forever Padel',                years: 5 },
-  { entity: 'E059', name: 'Proper Football',              years: 4 },
+  { entity: 'E057', name: 'Billericay Town FC',           years: 4,  imgSrc: 'https://tjtvxp4xul5oynxz.public.blob.vercel-storage.com/E057-rm-ima-billericay-town-football-club-logo.webp' },
+  { entity: 'E058', name: 'Forever Padel',                years: 5,  imgSrc: 'https://tjtvxp4xul5oynxz.public.blob.vercel-storage.com/E058-rm-ima-forever-padel-logo.webp' },
+  { entity: 'E059', name: 'Proper Football',              years: 4,  imgSrc: 'https://tjtvxp4xul5oynxz.public.blob.vercel-storage.com/E059-rm-ima-main-logo.png' },
 ]
 
 const HOST_COUNT = HOSTS.length
