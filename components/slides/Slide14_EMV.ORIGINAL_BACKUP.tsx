@@ -21,7 +21,7 @@ export function Slide14_EMV() {
       {/* TotalEMVBadge */}
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, boxShadow: ['0 0 6px rgba(52,233,226,0.3)', '0 0 20px rgba(52,233,226,0.8)', '0 0 6px rgba(52,233,226,0.3)'] }} transition={{ opacity: { delay: 0.5 }, boxShadow: { duration: 2.5, repeat: Infinity, delay: 1 } }} style={{ position: "absolute", left: 1554.4, top: 28.0, width: 308.0, height: 172.0, backgroundColor: "#0D2D2D", border: "2px solid #34E9E2" }}>
         <p style={{ textAlign: "left", margin: 0, padding: 0, lineHeight: 1.15, whiteSpace: "nowrap" }}><span style={{ fontSize: "17.0px", fontWeight: 700, color: "#34E9E2" }}>Total Portfolio EMV</span></p>
-        <p style={{ textAlign: "left", margin: 0, padding: 0, lineHeight: 1.15, whiteSpace: "nowrap" }}><span style={{ fontSize: "32.0px", fontWeight: 700, color: "#FFFFFF" }}>£<NumberTicker value={2009956} delay={0.6} /></span></p>
+        <p style={{ textAlign: "left", margin: 0, padding: 0, lineHeight: 1.15, whiteSpace: "nowrap" }}><span style={{ fontSize: "32.0px", fontWeight: 700, color: "#FFFFFF" }}>£<NumberTicker value={1262141} delay={0.6} /></span></p>
       </motion.div>
       {/* Table 8 */}
       <table style={{ position: "absolute", left: 48.0, top: 266.9, width: 1824.0, height: 739.0, borderCollapse: "collapse", tableLayout: "fixed", transform: "scaleX(0.962)", transformOrigin: "left top" }}>
@@ -238,7 +238,7 @@ export function Slide14_EMV() {
               <p style={{ textAlign: "center", margin: 0, padding: 0, lineHeight: 1.15, whiteSpace: "nowrap" }}><span style={{ fontSize: "17.0px", fontWeight: 700, color: "#34E9E2" }}>£18,512</span></p>
             </td>
           </motion.tr>
-          {/* EMV figures calculated 2026-08-26 using the master formula — see docs/EMV_MASTER_FORMULA.md */}
+          {/* TODO: EMV figures pending from Liam (social follower/engagement data not yet supplied) */}
           <motion.tr initial={{ opacity:0 }} animate={{ opacity:1 }} transition={{ delay: 1.42 }} style={{ height: 41.0 }}>
             <td style={{ verticalAlign: "middle", width: 672.8, padding: "2px 8px", overflow: "hidden", border: "none", backgroundColor: "#0A0A1A" }}>
               <p style={{ textAlign: "left", margin: 0, padding: 0, lineHeight: 1.15, whiteSpace: "nowrap" }}><span style={{ fontSize: "17.0px", color: "#FFFFFF" }}>Billericay Town FC</span></p>
@@ -247,10 +247,10 @@ export function Slide14_EMV() {
               <p style={{ textAlign: "center", margin: 0, padding: 0, lineHeight: 1.15, whiteSpace: "nowrap" }}><span style={{ fontSize: "17.0px", color: "#FFFFFF" }}>4 years</span></p>
             </td>
             <td style={{ verticalAlign: "middle", width: 428.1, padding: "2px 8px", overflow: "hidden", border: "none", backgroundColor: "#0A0A1A" }}>
-              <p style={{ textAlign: "center", margin: 0, padding: 0, lineHeight: 1.15, whiteSpace: "nowrap" }}><span style={{ fontSize: "17.0px", color: "#FFFFFF" }}>£460</span></p>
+              <p style={{ textAlign: "center", margin: 0, padding: 0, lineHeight: 1.15, whiteSpace: "nowrap" }}><span style={{ fontSize: "17.0px", color: "rgba(255,255,255,0.5)" }}>TBC</span></p>
             </td>
             <td style={{ verticalAlign: "middle", width: 428.1, padding: "2px 8px", overflow: "hidden", border: "none", backgroundColor: "#0A0A1A" }}>
-              <p style={{ textAlign: "center", margin: 0, padding: 0, lineHeight: 1.15, whiteSpace: "nowrap" }}><span style={{ fontSize: "17.0px", fontWeight: 700, color: "#34E9E2" }}>£124,193</span></p>
+              <p style={{ textAlign: "center", margin: 0, padding: 0, lineHeight: 1.15, whiteSpace: "nowrap" }}><span style={{ fontSize: "17.0px", fontWeight: 700, color: "rgba(255,255,255,0.5)" }}>TBC</span></p>
             </td>
           </motion.tr>
           <motion.tr initial={{ opacity:0 }} animate={{ opacity:1 }} transition={{ delay: 1.46 }} style={{ height: 41.0 }}>
@@ -261,10 +261,10 @@ export function Slide14_EMV() {
               <p style={{ textAlign: "center", margin: 0, padding: 0, lineHeight: 1.15, whiteSpace: "nowrap" }}><span style={{ fontSize: "17.0px", color: "#FFFFFF" }}>5 years</span></p>
             </td>
             <td style={{ verticalAlign: "middle", width: 428.1, padding: "2px 8px", overflow: "hidden", border: "none", backgroundColor: "#0A0A1A" }}>
-              <p style={{ textAlign: "center", margin: 0, padding: 0, lineHeight: 1.15, whiteSpace: "nowrap" }}><span style={{ fontSize: "17.0px", color: "#FFFFFF" }}>£128</span></p>
+              <p style={{ textAlign: "center", margin: 0, padding: 0, lineHeight: 1.15, whiteSpace: "nowrap" }}><span style={{ fontSize: "17.0px", color: "rgba(255,255,255,0.5)" }}>TBC</span></p>
             </td>
             <td style={{ verticalAlign: "middle", width: 428.1, padding: "2px 8px", overflow: "hidden", border: "none", backgroundColor: "#0A0A1A" }}>
-              <p style={{ textAlign: "center", margin: 0, padding: 0, lineHeight: 1.15, whiteSpace: "nowrap" }}><span style={{ fontSize: "17.0px", fontWeight: 700, color: "#34E9E2" }}>£47,248</span></p>
+              <p style={{ textAlign: "center", margin: 0, padding: 0, lineHeight: 1.15, whiteSpace: "nowrap" }}><span style={{ fontSize: "17.0px", fontWeight: 700, color: "rgba(255,255,255,0.5)" }}>TBC</span></p>
             </td>
           </motion.tr>
           <motion.tr initial={{ opacity:0 }} animate={{ opacity:1 }} transition={{ delay: 1.5 }} style={{ height: 41.0 }}>
@@ -275,10 +275,10 @@ export function Slide14_EMV() {
               <p style={{ textAlign: "center", margin: 0, padding: 0, lineHeight: 1.15, whiteSpace: "nowrap" }}><span style={{ fontSize: "17.0px", color: "#FFFFFF" }}>4 years</span></p>
             </td>
             <td style={{ verticalAlign: "middle", width: 428.1, padding: "2px 8px", overflow: "hidden", border: "none", backgroundColor: "#0A0A1A" }}>
-              <p style={{ textAlign: "center", margin: 0, padding: 0, lineHeight: 1.15, whiteSpace: "nowrap" }}><span style={{ fontSize: "17.0px", color: "#FFFFFF" }}>£2,134</span></p>
+              <p style={{ textAlign: "center", margin: 0, padding: 0, lineHeight: 1.15, whiteSpace: "nowrap" }}><span style={{ fontSize: "17.0px", color: "rgba(255,255,255,0.5)" }}>TBC</span></p>
             </td>
             <td style={{ verticalAlign: "middle", width: 428.1, padding: "2px 8px", overflow: "hidden", border: "none", backgroundColor: "#0A0A1A" }}>
-              <p style={{ textAlign: "center", margin: 0, padding: 0, lineHeight: 1.15, whiteSpace: "nowrap" }}><span style={{ fontSize: "17.0px", fontWeight: 700, color: "#34E9E2" }}>£576,374</span></p>
+              <p style={{ textAlign: "center", margin: 0, padding: 0, lineHeight: 1.15, whiteSpace: "nowrap" }}><span style={{ fontSize: "17.0px", fontWeight: 700, color: "rgba(255,255,255,0.5)" }}>TBC</span></p>
             </td>
           </motion.tr>
         </tbody>
