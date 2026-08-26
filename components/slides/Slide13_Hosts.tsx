@@ -164,8 +164,8 @@ export function Slide13_Hosts() {
         <p style={{ textAlign: 'center', margin: 0, padding: 0, lineHeight: 1.15, whiteSpace: 'normal' }}><span style={{ fontSize: '16.0px', color: 'rgba(255,255,255,0.700)' }}>over contracts</span></p>
       </div>
 
-      {/* Host grid — auto-lays any host count across GRID_COLS columns */}
-      <div style={{ position: 'absolute', left: 108, top: 184, width: 1704, display: 'grid', gridTemplateColumns: `repeat(${GRID_COLS}, ${CARD_W}px)`, gap: GRID_GAP }}>
+      {/* Host grid — flex-wrap centers any trailing partial row instead of left-aligning it */}
+      <div style={{ position: 'absolute', left: 108, top: 184, width: 1704, display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: GRID_GAP }}>
         {HOSTS.map((host, i) => (
           <HostCard key={host.entity} host={host} delay={0.4 + i * 0.05} />
         ))}
