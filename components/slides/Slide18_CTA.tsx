@@ -13,7 +13,7 @@ const CONTACT_EMAIL_CC = 'admin@letiverse.co.uk'
 const CLOSE_DATE = DEAL.closeDate
 
 // Letiverse WhatsApp number for investor enquiries (UK, no + or spaces)
-const WHATSAPP_NUMBER = '447305821103'
+const WHATSAPP_NUMBER = '447707179670'
 
 const EMAIL_HREF = [
   `mailto:${CONTACT_EMAIL}`,
@@ -395,7 +395,7 @@ export function Slide18_CTA() {
 
           <div style={{ display: 'flex', justifyContent: 'center', gap: 18, flexWrap: 'wrap', fontSize: 14, color: 'rgba(255,255,255,0.72)', letterSpacing: '0.8px' }}>
             <span>{CONTACT_EMAIL}</span>
-            <span style={{ color: '#34E9E2' }}>+44 7305 821103</span>
+            <span style={{ color: '#34E9E2' }}>+44 7707 179670</span>
           </div>
 
         </motion.div>

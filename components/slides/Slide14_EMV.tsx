@@ -44,8 +44,10 @@ export function Slide14_EMV() {
             <td style={{ verticalAlign: "middle", width: 672.8, padding: "2px 8px", overflow: "hidden", border: "none", backgroundColor: "#0A0A1A" }}>
               <p style={{ textAlign: "left", margin: 0, padding: 0, lineHeight: 1.15, whiteSpace: "nowrap" }}><span style={{ fontSize: "20.0px", color: "#FFFFFF" }}>Bradford Bulls Rugby</span></p>
             </td>
+            {/* TODO: term corrected 10→4 years per updated host list (2026-08-26). EMV/£ figures
+                below still reflect the old 10-year term — recalculate once confirmed. */}
             <td style={{ verticalAlign: "middle", width: 367.0, padding: "2px 8px", overflow: "hidden", border: "none", backgroundColor: "#0A0A1A" }}>
-              <p style={{ textAlign: "center", margin: 0, padding: 0, lineHeight: 1.15, whiteSpace: "nowrap" }}><span style={{ fontSize: "20.0px", color: "#FFFFFF" }}>10 years</span></p>
+              <p style={{ textAlign: "center", margin: 0, padding: 0, lineHeight: 1.15, whiteSpace: "nowrap" }}><span style={{ fontSize: "20.0px", color: "#FFFFFF" }}>4 years</span></p>
             </td>
             <td style={{ verticalAlign: "middle", width: 428.1, padding: "2px 8px", overflow: "hidden", border: "none", backgroundColor: "#0A0A1A" }}>
               <p style={{ textAlign: "center", margin: 0, padding: 0, lineHeight: 1.15, whiteSpace: "nowrap" }}><span style={{ fontSize: "20.0px", color: "#FFFFFF" }}>£1508</span></p>
