@@ -1,0 +1,15 @@
+{
+  "name": "letiverse-backgrounds",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "slide03":    "node scripts/generate-slide03.js",
+    "textbg":     "node scripts/generate-textbg.js",
+    "keyframes":  "node scripts/generate-keyframes.js",
+    "videos":     "node scripts/generate-videos.js",
+    "pipeline":   "node scripts/pipeline.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

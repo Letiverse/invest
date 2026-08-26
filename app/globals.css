@@ -1,0 +1,233 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --brand-navy: #050D1C;
+  --brand-cyan: #34E9E2;
+  --background: #050D1C;
+  --foreground: #ffffff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* Magic UI animations */
+  --animate-meteor: meteor 5s linear infinite;
+  --animate-orbit: orbit calc(var(--duration)*1s) linear infinite;
+  --animate-gradient: gradient 8s linear infinite;
+  --animate-shimmer-slide: shimmer-slide var(--speed) ease-in-out infinite alternate;
+  --animate-spin-around: spin-around calc(var(--speed) * 2) infinite linear;
+
+  /* Magic UI — new components */
+  --animate-blink-cursor: cursor-blink 1s step-end infinite;
+  --animate-marquee: marquee var(--duration, 40s) linear infinite;
+  --animate-marquee-vertical: marquee-vertical var(--duration, 40s) linear infinite;
+  --animate-aurora: aurora 10s linear infinite;
+  --animate-pulse-ripple: pulse-ripple 1.5s ease-out infinite;
+
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(calc(-100% - var(--gap, 1rem))); }
+  }
+  @keyframes marquee-vertical {
+    from { transform: translateY(0); }
+    to { transform: translateY(calc(-100% - var(--gap, 1rem))); }
+  }
+  @keyframes aurora {
+    from { background-position: 0% center; }
+    to { background-position: 200% center; }
+  }
+  @keyframes pulse-ripple {
+    0% { transform: scale(1); opacity: 0.6; }
+    100% { transform: scale(1.5); opacity: 0; }
+  }
+
+  /* Deck animations */
+  --animate-pulse-ring: pulse-ring 2.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-scan: scan 8s linear infinite;
+  --animate-glow-pulse: glow-pulse 3s ease-in-out infinite;
+  --animate-deck-heartbeat: deck-heartbeat 8s ease-in-out infinite;
+
+  @keyframes meteor {
+    0% { transform: rotate(var(--angle)) translateX(0); opacity: 1; }
+    70% { opacity: 1; }
+    100% { transform: rotate(var(--angle)) translateX(-500px); opacity: 0; }
+  }
+  @keyframes scene-fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes orbit {
+    0% { transform: rotate(calc(var(--angle) * 1deg)) translateY(calc(var(--radius) * 1px)) rotate(calc(var(--angle) * -1deg)); }
+    100% { transform: rotate(calc(var(--angle) * 1deg + 360deg)) translateY(calc(var(--radius) * 1px)) rotate(calc((var(--angle) * -1deg) - 360deg)); }
+  }
+  @keyframes gradient {
+    to { background-position: var(--bg-size, 300%) 0; }
+  }
+  @keyframes shimmer-slide {
+    to { transform: translate(calc(100cqw - 100%), 0); }
+  }
+  @keyframes spin-around {
+    0% { transform: translateZ(0) rotate(0); }
+    15%, 35% { transform: translateZ(0) rotate(90deg); }
+    65%, 85% { transform: translateZ(0) rotate(270deg); }
+    100% { transform: translateZ(0) rotate(360deg); }
+  }
+  @keyframes pulse-ring {
+    0%, 100% { transform: scale(1); opacity: 0.6; }
+    50% { transform: scale(1.08); opacity: 0.3; }
+  }
+  @keyframes scan {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(100vh); }
+  }
+  @keyframes glow-pulse {
+    0%, 100% { opacity: 0.4; }
+    50% { opacity: 0.8; }
+  }
+  @keyframes deck-heartbeat {
+    0%, 100% { opacity: 0.28; }
+    50%       { opacity: 0.62; }
+  }
+  @keyframes transition-flash-fade {
+    from { opacity: 0.65; }
+    to   { opacity: 0; }
+  }
+  @keyframes cursor-blink {
+    0%, 100% { opacity: 0.6; }
+    50%       { opacity: 0; }
+  }
+  --animate-cursor-blink: cursor-blink 1s step-end infinite;
+
+
+  /* Living Letiverse polyhedron — subtle 3D rotation applied to the shared
+     icosahedron PNG that appears on 11 slides. Targets by exact src path so
+     no slide files need editing. Disabled under prefers-reduced-motion. */
+  @keyframes letiv-polyhedron-spin {
+    0%   { transform: rotate3d(0.4, 1, 0.2, 0deg); filter: drop-shadow(0 0 22px rgba(52,233,226,0.40)); }
+    50%  { transform: rotate3d(0.4, 1, 0.2, 180deg); filter: drop-shadow(0 0 30px rgba(52,233,226,0.55)); }
+    100% { transform: rotate3d(0.4, 1, 0.2, 360deg); filter: drop-shadow(0 0 22px rgba(52,233,226,0.40)); }
+  }
+}
+
+img[src*="image3-udGSMmgl5jvRl0WEJiFjgkybKe2WgM"] {
+  animation: letiv-polyhedron-spin 22s ease-in-out infinite;
+  transform-origin: center center;
+  will-change: transform, filter;
+}
+
+/* TransitionFlash: radial teal burst CSS animation (avoids Framer Motion inline styles) */
+.transition-flash {
+  animation: transition-flash-fade 0.8s ease-out forwards;
+}
+@media (prefers-reduced-motion: reduce) {
+  .transition-flash { animation: none; opacity: 0; }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  img[src*="image3-udGSMmgl5jvRl0WEJiFjgkybKe2WgM"] {
+    animation: none !important;
+  }
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #050D1C;
+  color: #ffffff;
+  font-family: var(--font-geist-sans, Arial, sans-serif);
+  -webkit-font-smoothing: antialiased;
+}
+
+#__next,
+main {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Safe-area-aware inset for the slide stage container.
+   Ensures the scaled 1920×1080 frame always clears the ticker footer (40px)
+   and iOS/Android safe-area insets (notch, home indicator). */
+.deck-stage-inset {
+  position: absolute;
+  inset: 0;
+  padding:
+    max(80px, calc(env(safe-area-inset-top, 0px) + 16px))
+    max(80px, calc(env(safe-area-inset-right, 0px) + 16px))
+    max(64px, calc(40px + env(safe-area-inset-bottom, 0px)))
+    max(80px, calc(env(safe-area-inset-left, 0px) + 16px));
+}
+@media (max-width: 900px) {
+  .deck-stage-inset {
+    padding:
+      max(28px, calc(env(safe-area-inset-top, 0px) + 12px))
+      max(28px, calc(env(safe-area-inset-right, 0px) + 12px))
+      max(44px, calc(40px + env(safe-area-inset-bottom, 0px)))
+      max(28px, calc(env(safe-area-inset-left, 0px) + 12px));
+  }
+}
+@media (max-width: 520px) {
+  .deck-stage-inset {
+    padding:
+      12px
+      max(12px, env(safe-area-inset-right, 0px))
+      max(56px, calc(40px + env(safe-area-inset-bottom, 0px)))
+      max(12px, env(safe-area-inset-left, 0px));
+  }
+}
+
+/* Investment calculator slider — large thumb for touch devices */
+.calc-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #34E9E2;
+  box-shadow: 0 0 12px rgba(52, 233, 226, 0.7);
+  cursor: pointer;
+  border: 2px solid #050D1C;
+  position: relative;
+  z-index: 3;
+}
+.calc-slider::-moz-range-thumb {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #34E9E2;
+  box-shadow: 0 0 12px rgba(52, 233, 226, 0.7);
+  cursor: pointer;
+  border: 2px solid #050D1C;
+}
+/* Increase the invisible hit area around the slider track on touch devices */
+@media (pointer: coarse) {
+  .calc-slider {
+    padding: 12px 0;
+    height: 4px;
+    box-sizing: content-box;
+  }
+  .calc-slider::-webkit-slider-thumb {
+    width: 36px;
+    height: 36px;
+  }
+  .calc-slider::-moz-range-thumb {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+/* Focus-visible indicators — keyboard-only, doesn't trigger on mouse click */
+:focus-visible {
+  outline: 2px solid #34E9E2;
+  outline-offset: 2px;
+}
+/* Remove default focus ring for mouse users */
+:focus:not(:focus-visible) {
+  outline: none;
+}

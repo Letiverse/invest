@@ -1,0 +1,7 @@
+# git-ignore generated assets — keep scripts/prompts/manifest committed
+originals/
+startframes/
+keyframes/
+videos/
+node_modules/
+*.log

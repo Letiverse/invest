@@ -1,0 +1,2128 @@
+{
+  "_comment": "State tracking for the Letiverse backgrounds pipeline. Updated by generation scripts.",
+  "slides": {
+    "10": {
+      "name": "Holoconnects",
+      "bgType": "css-dark-generate",
+      "originalBlobUrl": null,
+      "dimensions": {
+        "w": 2752,
+        "h": 1536
+      },
+      "prompts": {
+        "new_image": "dark background, holographic mesh network visualization, interconnected floating geometric nodes with cyan teal neon connections, deep space technology aesthetic, 3D depth, particles and data streams, no text",
+        "strip": "plain dark background, minimal dot pattern, empty digital space",
+        "kf1": "dark space with faint network nodes beginning to appear, subtle connection lines forming",
+        "kf2": "full holographic mesh network, glowing cyan nodes and connection pathways, dynamic energy"
+      },
+      "state": {
+        "uploadedImageId": "f378e965-526a-461d-81c9-8c0f7d2bd773",
+        "newImages": [
+          {
+            "generationId": "1f145a84-8eef-6c40-a124-87f87155b098",
+            "imageId": "51786148-feed-45e7-a27c-eabbfcc54e1e",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a84-8eef-6c40-a124-87f87155b098/nano-banana-2_dark_mysterious_background_intricate_holographic_mesh_network_visualization_with-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide10\\v1.jpg"
+          },
+          {
+            "generationId": "1f145a84-8eef-6c40-a124-87f87155b098",
+            "imageId": "3f590a30-24a5-4906-af34-cccc80be0f17",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a84-8eef-6c40-a124-87f87155b098/nano-banana-2_dark_mysterious_background_intricate_holographic_mesh_network_visualization_with-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide10\\v2.jpg"
+          },
+          {
+            "generationId": "1f145a84-8eef-6c40-a124-87f87155b098",
+            "imageId": "43b5bfb3-8e63-4a30-b2ff-81a34866a607",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a84-8eef-6c40-a124-87f87155b098/nano-banana-2_dark_mysterious_background_intricate_holographic_mesh_network_visualization_with-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide10\\v3.jpg"
+          },
+          {
+            "generationId": "1f145a84-8eef-6c40-a124-87f87155b098",
+            "imageId": "5ef96780-0492-4427-b6a1-b9305dd2cbf0",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a84-8eef-6c40-a124-87f87155b098/nano-banana-2_dark_mysterious_background_intricate_holographic_mesh_network_visualization_with-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide10\\v4.jpg"
+          }
+        ],
+        "startFrames": [
+          {
+            "generationId": "1f145c15-9fa8-6130-ac2f-a2aee20a6ffd",
+            "imageId": "e440842b-87c8-4080-ad8a-4fa528b05146",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c15-9fa8-6130-ac2f-a2aee20a6ffd/nano-banana-2_plain_dark_background_minimal_dot_pattern_empty_digital_space-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide10\\stripped\\v1.jpg",
+            "videoUploadId": "c9bae276-f7aa-4c8e-b02d-abc952a9cc7d"
+          },
+          {
+            "generationId": "1f145c15-9fa8-6130-ac2f-a2aee20a6ffd",
+            "imageId": "785286f9-7b44-4205-9e07-f90b17fe5c2d",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c15-9fa8-6130-ac2f-a2aee20a6ffd/nano-banana-2_plain_dark_background_minimal_dot_pattern_empty_digital_space-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide10\\stripped\\v2.jpg"
+          },
+          {
+            "generationId": "1f145c15-9fa8-6130-ac2f-a2aee20a6ffd",
+            "imageId": "8bcdbe93-2230-4078-93ca-92ce0ce33b04",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c15-9fa8-6130-ac2f-a2aee20a6ffd/nano-banana-2_plain_dark_background_minimal_dot_pattern_empty_digital_space-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide10\\stripped\\v3.jpg"
+          },
+          {
+            "generationId": "1f145c15-9fa8-6130-ac2f-a2aee20a6ffd",
+            "imageId": "dbe16499-0d2d-4f5b-8f67-4036ee16c686",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c15-9fa8-6130-ac2f-a2aee20a6ffd/nano-banana-2_plain_dark_background_minimal_dot_pattern_empty_digital_space-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide10\\stripped\\v4.jpg"
+          }
+        ],
+        "kf1Frames": [],
+        "kf2Frames": [],
+        "approvedNewImage": null,
+        "approvedStart": null,
+        "approvedKf1": null,
+        "approvedKf2": null,
+        "videos": [
+          {
+            "label": "A",
+            "model": "kling-3.0",
+            "generationId": "1f145e3f-6ff3-6850-9583-c88b4637a61c",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145e3f-6ff3-6850-9583-c88b4637a61c/kling-3.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide10\\vA-kling-3.0.mp4"
+          },
+          {
+            "label": "B",
+            "model": "kling-video-o-3",
+            "generationId": "1f145e47-2ff2-65a0-9d61-d8bd663d5a56",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145e47-2ff2-65a0-9d61-d8bd663d5a56/kling-video-o-3_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide10\\vB-kling-video-o-3.mp4"
+          },
+          {
+            "label": "C",
+            "model": "seedance-2.0",
+            "generationId": "1f145e4d-3108-6010-826a-cd5576804655",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145e4d-3108-6010-826a-cd5576804655/seedance-2.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide10\\vC-seedance-2.0.mp4"
+          },
+          {
+            "label": "D",
+            "model": "seedance-1.0-pro",
+            "generationId": "1f145e52-8e01-6f00-af9a-31c30a8b483b",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145e52-8e01-6f00-af9a-31c30a8b483b/seedance-1.0-pro_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide10\\vD-seedance-1.0-pro.mp4"
+          }
+        ]
+      }
+    },
+    "11": {
+      "name": "Phases",
+      "bgType": "full-bg",
+      "originalBlobUrl": "https://tjtvxp4xul5oynxz.public.blob.vercel-storage.com/slides/media/image21-3au6G6TeRFGG9UqJZpm730XqvUUyoI.jpg",
+      "dimensions": {
+        "w": 2752,
+        "h": 1536
+      },
+      "prompts": {
+        "strip": "empty stadium bowl at night, no crowd, minimal lighting, plain concrete tiers, quiet empty venue",
+        "kf1": "stadium with sparse architectural lighting activating, early setup mood, subtle atmospheric glow",
+        "kf2": "full stadium atmosphere, dramatic spotlights, teal wash lighting, event anticipation energy"
+      },
+      "state": {
+        "uploadedImageId": "13e5bfbc-34e6-49d3-948e-f97cf2d4a3cf",
+        "startFrames": [
+          {
+            "generationId": "1f145ab6-d365-6f00-aba5-ab6c56419967",
+            "imageId": "bbb1afae-9124-4806-b347-ad671f660b2f",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ab6-d365-6f00-aba5-ab6c56419967/nano-banana-2_empty_stadium_bowl_at_night_no_crowd_minimal_lighting_plain_concrete_tiers_quiet-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide11\\v1.jpg"
+          },
+          {
+            "generationId": "1f145ab6-d365-6f00-aba5-ab6c56419967",
+            "imageId": "15c2dffc-19d2-45f0-ae52-5c511d39543a",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ab6-d365-6f00-aba5-ab6c56419967/nano-banana-2_empty_stadium_bowl_at_night_no_crowd_minimal_lighting_plain_concrete_tiers_quiet-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide11\\v2.jpg",
+            "videoUploadId": "75c4dfde-30f0-4559-9bb3-cee3cebfd925"
+          },
+          {
+            "generationId": "1f145ab6-d365-6f00-aba5-ab6c56419967",
+            "imageId": "b78599eb-e780-43ab-9571-a1082198dc09",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ab6-d365-6f00-aba5-ab6c56419967/nano-banana-2_empty_stadium_bowl_at_night_no_crowd_minimal_lighting_plain_concrete_tiers_quiet-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide11\\v3.jpg"
+          },
+          {
+            "generationId": "1f145ab6-d365-6f00-aba5-ab6c56419967",
+            "imageId": "eff75bec-de01-40b2-a777-623e81cb1fbc",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ab6-d365-6f00-aba5-ab6c56419967/nano-banana-2_empty_stadium_bowl_at_night_no_crowd_minimal_lighting_plain_concrete_tiers_quiet-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide11\\v4.jpg"
+          }
+        ],
+        "kf1Frames": [
+          {
+            "generationId": "1f145ab9-2b05-65b0-87fd-074c1f5fe822",
+            "imageId": "2a72d7c2-668c-4573-9c1d-e2ee6022a564",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ab9-2b05-65b0-87fd-074c1f5fe822/nano-banana-2_stadium_with_sparse_architectural_lighting_activating_early_setup_mood_subtle_at-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide11\\kf1\\v1.jpg"
+          },
+          {
+            "generationId": "1f145ab9-2b05-65b0-87fd-074c1f5fe822",
+            "imageId": "2f938492-deca-4f58-950e-676656cd7412",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ab9-2b05-65b0-87fd-074c1f5fe822/nano-banana-2_stadium_with_sparse_architectural_lighting_activating_early_setup_mood_subtle_at-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide11\\kf1\\v2.jpg"
+          },
+          {
+            "generationId": "1f145ab9-2b05-65b0-87fd-074c1f5fe822",
+            "imageId": "afda00b2-5b79-4893-bdd7-01b1249d79bf",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ab9-2b05-65b0-87fd-074c1f5fe822/nano-banana-2_stadium_with_sparse_architectural_lighting_activating_early_setup_mood_subtle_at-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide11\\kf1\\v3.jpg"
+          },
+          {
+            "generationId": "1f145ab9-2b05-65b0-87fd-074c1f5fe822",
+            "imageId": "84707063-dbff-48b9-a087-a58817f859f1",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ab9-2b05-65b0-87fd-074c1f5fe822/nano-banana-2_stadium_with_sparse_architectural_lighting_activating_early_setup_mood_subtle_at-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide11\\kf1\\v4.jpg"
+          }
+        ],
+        "kf2Frames": [
+          {
+            "generationId": "1f145aba-c7c5-66b0-b200-613a2536a083",
+            "imageId": "bb965ea2-1a45-4ac1-bf8c-624eb10e92e1",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aba-c7c5-66b0-b200-613a2536a083/nano-banana-2_full_stadium_atmosphere_dramatic_spotlights_teal_wash_lighting_event_anticipatio-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide11\\kf2\\v1.jpg"
+          },
+          {
+            "generationId": "1f145aba-c7c5-66b0-b200-613a2536a083",
+            "imageId": "c6a830fd-fa7b-44f8-9bc2-35e71282037b",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aba-c7c5-66b0-b200-613a2536a083/nano-banana-2_full_stadium_atmosphere_dramatic_spotlights_teal_wash_lighting_event_anticipatio-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide11\\kf2\\v2.jpg"
+          },
+          {
+            "generationId": "1f145aba-c7c5-66b0-b200-613a2536a083",
+            "imageId": "44baf8c8-a758-4ff5-aa53-244a6d256836",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aba-c7c5-66b0-b200-613a2536a083/nano-banana-2_full_stadium_atmosphere_dramatic_spotlights_teal_wash_lighting_event_anticipatio-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide11\\kf2\\v3.jpg"
+          },
+          {
+            "generationId": "1f145aba-c7c5-66b0-b200-613a2536a083",
+            "imageId": "03434a8e-3221-4891-84e0-7f3ee5f19b0e",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aba-c7c5-66b0-b200-613a2536a083/nano-banana-2_full_stadium_atmosphere_dramatic_spotlights_teal_wash_lighting_event_anticipatio-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide11\\kf2\\v4.jpg"
+          }
+        ],
+        "approvedStart": 1,
+        "approvedKf1": 1,
+        "approvedKf2": 1,
+        "videos": [
+          {
+            "label": "A",
+            "model": "kling-3.0",
+            "generationId": "1f145e57-6c4c-63b0-aafc-2e7d9f729b17",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145e57-6c4c-63b0-aafc-2e7d9f729b17/kling-3.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide11\\vA-kling-3.0.mp4"
+          },
+          {
+            "label": "B",
+            "model": "kling-video-o-3",
+            "generationId": "1f145e5f-2829-6ef0-9fc8-9483db1876a1",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145e5f-2829-6ef0-9fc8-9483db1876a1/kling-video-o-3_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide11\\vB-kling-video-o-3.mp4"
+          },
+          {
+            "label": "C",
+            "model": "seedance-2.0",
+            "generationId": "1f145e65-2dc2-65f0-be0c-5a35ea7f06f5",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145e65-2dc2-65f0-be0c-5a35ea7f06f5/seedance-2.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide11\\vC-seedance-2.0.mp4"
+          },
+          {
+            "label": "D",
+            "model": "seedance-1.0-pro",
+            "generationId": "1f145e6b-b1c1-6350-a405-63007642968d",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145e6b-b1c1-6350-a405-63007642968d/seedance-1.0-pro_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide11\\vD-seedance-1.0-pro.mp4"
+          }
+        ]
+      }
+    },
+    "12": {
+      "name": "Ecommerce",
+      "bgType": "css-dark-generate",
+      "originalBlobUrl": null,
+      "dimensions": {
+        "w": 2752,
+        "h": 1536
+      },
+      "prompts": {
+        "new_image": "dark background, abstract digital ecommerce marketplace aesthetic, floating product card frames, subtle teal highlights on card borders, modern retail digital interface impression, no real products or text",
+        "strip": "plain dark background, faint floating card outlines, empty grid",
+        "kf1": "dark background with card shapes beginning to materialize, glowing borders emerging",
+        "kf2": "vivid dark ecommerce background, glowing product frames, teal border highlights, dynamic retail energy"
+      },
+      "state": {
+        "uploadedImageId": "38642f26-a9db-4d85-bcb9-109f2fe2f800",
+        "newImages": [
+          {
+            "generationId": "1f145a86-bcc2-6800-86fd-7f6820e27149",
+            "imageId": "c7de11ee-9a0f-47d1-b3b7-76c0e11bec43",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a86-bcc2-6800-86fd-7f6820e27149/nano-banana-2_dark_background_with_subtle_gradient_effects_abstract_digital_ecommerce_marketpl-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide12\\v1.jpg"
+          },
+          {
+            "generationId": "1f145a86-bcc2-6800-86fd-7f6820e27149",
+            "imageId": "47893fc4-b46b-4330-907d-5b506f6810ca",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a86-bcc2-6800-86fd-7f6820e27149/nano-banana-2_dark_background_with_subtle_gradient_effects_abstract_digital_ecommerce_marketpl-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide12\\v2.jpg"
+          },
+          {
+            "generationId": "1f145a86-bcc2-6800-86fd-7f6820e27149",
+            "imageId": "ec923a70-a3d7-45ee-af3b-55937c703223",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a86-bcc2-6800-86fd-7f6820e27149/nano-banana-2_dark_background_with_subtle_gradient_effects_abstract_digital_ecommerce_marketpl-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide12\\v3.jpg"
+          },
+          {
+            "generationId": "1f145a86-bcc2-6800-86fd-7f6820e27149",
+            "imageId": "52c33c2b-a959-458c-9940-224432437f81",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a86-bcc2-6800-86fd-7f6820e27149/nano-banana-2_dark_background_with_subtle_gradient_effects_abstract_digital_ecommerce_marketpl-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide12\\v4.jpg"
+          }
+        ],
+        "startFrames": [
+          {
+            "generationId": "1f145c17-9a9c-6590-8ee6-7829bcdfa45c",
+            "imageId": "81771e17-c821-4295-a01c-2b744bdba939",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c17-9a9c-6590-8ee6-7829bcdfa45c/nano-banana-2_plain_dark_background_faint_floating_card_outlines_empty_grid-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide12\\stripped\\v1.jpg",
+            "videoUploadId": "5d02cd73-b6ff-4e1f-9798-534930753cff"
+          },
+          {
+            "generationId": "1f145c17-9a9c-6590-8ee6-7829bcdfa45c",
+            "imageId": "1048ebad-019b-4975-b6dc-6698008aca2a",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c17-9a9c-6590-8ee6-7829bcdfa45c/nano-banana-2_plain_dark_background_faint_floating_card_outlines_empty_grid-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide12\\stripped\\v2.jpg"
+          },
+          {
+            "generationId": "1f145c17-9a9c-6590-8ee6-7829bcdfa45c",
+            "imageId": "254f0d82-95b2-4378-b9db-bc832566c4f6",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c17-9a9c-6590-8ee6-7829bcdfa45c/nano-banana-2_plain_dark_background_faint_floating_card_outlines_empty_grid-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide12\\stripped\\v3.jpg"
+          },
+          {
+            "generationId": "1f145c17-9a9c-6590-8ee6-7829bcdfa45c",
+            "imageId": "803f2d40-58b0-4a85-99ef-8a4e82422032",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c17-9a9c-6590-8ee6-7829bcdfa45c/nano-banana-2_plain_dark_background_faint_floating_card_outlines_empty_grid-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide12\\stripped\\v4.jpg"
+          }
+        ],
+        "kf1Frames": [],
+        "kf2Frames": [],
+        "approvedNewImage": null,
+        "approvedStart": null,
+        "approvedKf1": null,
+        "approvedKf2": null,
+        "videos": [
+          {
+            "label": "A",
+            "model": "kling-3.0",
+            "generationId": "1f145e71-1d83-6520-85a5-9156361ada6e",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145e71-1d83-6520-85a5-9156361ada6e/kling-3.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide12\\vA-kling-3.0.mp4"
+          },
+          {
+            "label": "B",
+            "model": "kling-video-o-3",
+            "generationId": "1f145e78-3a16-6370-a9e1-03916a86bbb5",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145e78-3a16-6370-a9e1-03916a86bbb5/kling-video-o-3_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide12\\vB-kling-video-o-3.mp4"
+          },
+          {
+            "label": "C",
+            "model": "seedance-2.0",
+            "generationId": "1f145e7e-29f2-6b00-80a5-5cad293c0f51",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145e7e-29f2-6b00-80a5-5cad293c0f51/seedance-2.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide12\\vC-seedance-2.0.mp4"
+          },
+          {
+            "label": "D",
+            "model": "seedance-1.0-pro",
+            "generationId": "1f145e84-aab8-6540-b942-5b6a46a9c270",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145e84-aab8-6540-b942-5b6a46a9c270/seedance-1.0-pro_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide12\\vD-seedance-1.0-pro.mp4"
+          }
+        ]
+      }
+    },
+    "13": {
+      "name": "Hosts",
+      "bgType": "css-dark-generate",
+      "originalBlobUrl": null,
+      "dimensions": {
+        "w": 2752,
+        "h": 1536
+      },
+      "prompts": {
+        "new_image": "dark background, collage impression of premium hospitality venues, warm interior lighting, upscale bars and restaurants atmosphere, multiple location montage, cinematic depth of field, no text, teal accents",
+        "strip": "plain very dark background, minimal shadow depth, empty space",
+        "kf1": "dark background with faint venue silhouettes beginning to emerge, warm glow accents",
+        "kf2": "rich multi-venue atmosphere, warm amber and teal lighting, premium hospitality impression"
+      },
+      "state": {
+        "uploadedImageId": "bed4a1f8-429c-42c4-bd95-4d3ad1487a99",
+        "newImages": [
+          {
+            "generationId": "1f145a88-62b6-6850-8471-b142540362ed",
+            "imageId": "f451fc10-ca6d-43d0-8b5b-6ca115534e05",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a88-62b6-6850-8471-b142540362ed/nano-banana-2_dark_luxurious_background_collage_impression_of_premium_hospitality_venues_with_-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide13\\v1.jpg"
+          },
+          {
+            "generationId": "1f145a88-62b6-6850-8471-b142540362ed",
+            "imageId": "5e270fee-2ebb-4dd9-b3db-3811f619a239",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a88-62b6-6850-8471-b142540362ed/nano-banana-2_dark_luxurious_background_collage_impression_of_premium_hospitality_venues_with_-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide13\\v2.jpg"
+          },
+          {
+            "generationId": "1f145a88-62b6-6850-8471-b142540362ed",
+            "imageId": "ce3cbc55-19d1-4a53-b431-22ebdfc82e66",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a88-62b6-6850-8471-b142540362ed/nano-banana-2_dark_luxurious_background_collage_impression_of_premium_hospitality_venues_with_-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide13\\v3.jpg"
+          },
+          {
+            "generationId": "1f145a88-62b6-6850-8471-b142540362ed",
+            "imageId": "6a7bb7ae-1de6-4b81-98b7-2547686c45fd",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a88-62b6-6850-8471-b142540362ed/nano-banana-2_dark_luxurious_background_collage_impression_of_premium_hospitality_venues_with_-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide13\\v4.jpg"
+          }
+        ],
+        "startFrames": [
+          {
+            "generationId": "1f145c19-99d1-67d0-9fc3-d879be1f526a",
+            "imageId": "cc9791f7-5306-4493-8cc6-8e2e44a37145",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c19-99d1-67d0-9fc3-d879be1f526a/nano-banana-2_plain_very_dark_background_minimal_shadow_depth_empty_space-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide13\\stripped\\v1.jpg",
+            "videoUploadId": "573c6ee9-ce3a-47da-948b-9fa5b6d723d0"
+          },
+          {
+            "generationId": "1f145c19-99d1-67d0-9fc3-d879be1f526a",
+            "imageId": "f6c68346-88e3-4dd2-9569-93fbab16f55d",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c19-99d1-67d0-9fc3-d879be1f526a/nano-banana-2_plain_very_dark_background_minimal_shadow_depth_empty_space-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide13\\stripped\\v2.jpg"
+          },
+          {
+            "generationId": "1f145c19-99d1-67d0-9fc3-d879be1f526a",
+            "imageId": "5c817ddb-1ecc-447e-be38-4436ca398a38",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c19-99d1-67d0-9fc3-d879be1f526a/nano-banana-2_plain_very_dark_background_minimal_shadow_depth_empty_space-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide13\\stripped\\v3.jpg"
+          },
+          {
+            "generationId": "1f145c19-99d1-67d0-9fc3-d879be1f526a",
+            "imageId": "4b589913-0498-4856-862d-5ce87ef5775d",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c19-99d1-67d0-9fc3-d879be1f526a/nano-banana-2_plain_very_dark_background_minimal_shadow_depth_empty_space-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide13\\stripped\\v4.jpg"
+          }
+        ],
+        "kf1Frames": [],
+        "kf2Frames": [],
+        "approvedNewImage": null,
+        "approvedStart": null,
+        "approvedKf1": null,
+        "approvedKf2": null,
+        "videos": [
+          {
+            "label": "A",
+            "model": "kling-3.0",
+            "generationId": "1f145e89-7b7f-6260-b7ea-571cc91a2529",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145e89-7b7f-6260-b7ea-571cc91a2529/kling-3.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide13\\vA-kling-3.0.mp4"
+          },
+          {
+            "label": "B",
+            "model": "kling-video-o-3",
+            "generationId": "1f145e91-2b7d-64d0-bcfe-6f9d734d1682",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145e91-2b7d-64d0-bcfe-6f9d734d1682/kling-video-o-3_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide13\\vB-kling-video-o-3.mp4"
+          },
+          {
+            "label": "C",
+            "model": "seedance-2.0",
+            "generationId": "1f145e97-29af-6350-a0d1-4c5da3ad5ac9",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145e97-29af-6350-a0d1-4c5da3ad5ac9/seedance-2.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide13\\vC-seedance-2.0.mp4"
+          },
+          {
+            "label": "D",
+            "model": "seedance-1.0-pro",
+            "generationId": "1f145ea0-063f-6290-bb3b-558459769a61",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ea0-063f-6290-bb3b-558459769a61/seedance-1.0-pro_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide13\\vD-seedance-1.0-pro.mp4"
+          }
+        ]
+      }
+    },
+    "14": {
+      "name": "EMV",
+      "bgType": "css-dark-generate",
+      "originalBlobUrl": null,
+      "dimensions": {
+        "w": 2752,
+        "h": 1536
+      },
+      "prompts": {
+        "new_image": "dark background, abstract data visualization aesthetic, floating metric tiles and bar charts, cyan gold palette, media value dashboard impression, clean digital sophistication, no real numbers or text",
+        "strip": "plain dark background, faint grid lines, empty data canvas",
+        "kf1": "dark background with data grid structure materializing, metric panels forming",
+        "kf2": "vivid data visualization background, glowing cyan and gold metrics, dynamic value dashboard"
+      },
+      "state": {
+        "uploadedImageId": "b28ccae9-2bea-47a4-bce3-8721ab0cc6a5",
+        "newImages": [
+          {
+            "generationId": "1f145a8a-4292-6c20-af74-ca8fd0669831",
+            "imageId": "efac5ad8-8bf9-479b-9f05-4685dbd4e1db",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a8a-4292-6c20-af74-ca8fd0669831/nano-banana-2_dark_gradient_background_with_subtle_texture_abstract_data_visualization_aesthet-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide14\\v1.jpg"
+          },
+          {
+            "generationId": "1f145a8a-4292-6c20-af74-ca8fd0669831",
+            "imageId": "6e78a5c3-323f-4861-bf36-b79bb0f6892a",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a8a-4292-6c20-af74-ca8fd0669831/nano-banana-2_dark_gradient_background_with_subtle_texture_abstract_data_visualization_aesthet-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide14\\v2.jpg"
+          },
+          {
+            "generationId": "1f145a8a-4292-6c20-af74-ca8fd0669831",
+            "imageId": "ab524e2f-a74e-44b6-aee2-6cdf54d50a6b",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a8a-4292-6c20-af74-ca8fd0669831/nano-banana-2_dark_gradient_background_with_subtle_texture_abstract_data_visualization_aesthet-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide14\\v3.jpg"
+          },
+          {
+            "generationId": "1f145a8a-4292-6c20-af74-ca8fd0669831",
+            "imageId": "350dec91-26fc-43b2-98f2-16a8fb14d28d",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a8a-4292-6c20-af74-ca8fd0669831/nano-banana-2_dark_gradient_background_with_subtle_texture_abstract_data_visualization_aesthet-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide14\\v4.jpg"
+          }
+        ],
+        "startFrames": [
+          {
+            "generationId": "1f145c1c-5028-6f40-81d0-791b342c8e39",
+            "imageId": "916c6707-c0e9-4ee7-a522-5d5d9ccb871a",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c1c-5028-6f40-81d0-791b342c8e39/nano-banana-2_plain_dark_background_faint_grid_lines_empty_data_canvas-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide14\\stripped\\v1.jpg",
+            "videoUploadId": "9139a2d4-3ef3-4ce6-accf-37b6ced6d2e4"
+          },
+          {
+            "generationId": "1f145c1c-5028-6f40-81d0-791b342c8e39",
+            "imageId": "fcc56d4d-c12b-4484-89b7-6806ec6165c9",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c1c-5028-6f40-81d0-791b342c8e39/nano-banana-2_plain_dark_background_faint_grid_lines_empty_data_canvas-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide14\\stripped\\v2.jpg"
+          },
+          {
+            "generationId": "1f145c1c-5028-6f40-81d0-791b342c8e39",
+            "imageId": "ba61a1a8-8a85-481a-a5f9-76ef5b6de9a7",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c1c-5028-6f40-81d0-791b342c8e39/nano-banana-2_plain_dark_background_faint_grid_lines_empty_data_canvas-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide14\\stripped\\v3.jpg"
+          },
+          {
+            "generationId": "1f145c1c-5028-6f40-81d0-791b342c8e39",
+            "imageId": "827529c3-33fd-49e1-b69d-ceb8708cc636",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c1c-5028-6f40-81d0-791b342c8e39/nano-banana-2_plain_dark_background_faint_grid_lines_empty_data_canvas-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide14\\stripped\\v4.jpg"
+          }
+        ],
+        "kf1Frames": [],
+        "kf2Frames": [],
+        "approvedNewImage": null,
+        "approvedStart": null,
+        "approvedKf1": null,
+        "approvedKf2": null,
+        "videos": [
+          {
+            "label": "A",
+            "model": "kling-3.0",
+            "generationId": "1f145ea4-da5c-6790-af86-c2b367767b6e",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ea4-da5c-6790-af86-c2b367767b6e/kling-3.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide14\\vA-kling-3.0.mp4"
+          },
+          {
+            "label": "B",
+            "model": "kling-video-o-3",
+            "generationId": "1f145eab-f681-6810-8768-ca141c2c974b",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145eab-f681-6810-8768-ca141c2c974b/kling-video-o-3_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide14\\vB-kling-video-o-3.mp4"
+          },
+          {
+            "label": "C",
+            "model": "seedance-2.0",
+            "generationId": "1f145eb2-7fa6-6b30-a81d-920187a642c4",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145eb2-7fa6-6b30-a81d-920187a642c4/seedance-2.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide14\\vC-seedance-2.0.mp4"
+          },
+          {
+            "label": "D",
+            "model": "seedance-1.0-pro",
+            "generationId": "1f145eb8-fcec-6580-8b7d-2034981b96fa",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145eb8-fcec-6580-8b7d-2034981b96fa/seedance-1.0-pro_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide14\\vD-seedance-1.0-pro.mp4"
+          }
+        ]
+      }
+    },
+    "15": {
+      "name": "Projections",
+      "bgType": "full-bg",
+      "originalBlobUrl": "https://tjtvxp4xul5oynxz.public.blob.vercel-storage.com/slides/media/image43-nqeDa2RWGAlvzfwcgOLoVXQtjLsBRi.png",
+      "dimensions": {
+        "w": 2752,
+        "h": 1536
+      },
+      "prompts": {
+        "strip": "plain dark background, empty chart canvas, clean axes, no data plotted",
+        "kf1": "dark background with baseline financial chart structure appearing, faint grid and axis labels forming",
+        "kf2": "growth trajectory chart emerging, upward curve with teal highlights, revenue projections visualized"
+      },
+      "state": {
+        "uploadedImageId": "fe6132a5-332d-4421-b60d-7c9d0d9cfa93",
+        "startFrames": [
+          {
+            "generationId": "1f145abe-a212-6180-9014-199ed11c02a8",
+            "imageId": "ef6518f4-bbcd-45e4-8670-920ff3f313af",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145abe-a212-6180-9014-199ed11c02a8/nano-banana-2_plain_dark_background_empty_chart_canvas_clean_axes_no_data_plotted-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide15\\v1.jpg",
+            "videoUploadId": "f859415c-9e5f-4a2c-83f6-afbbf1296603"
+          },
+          {
+            "generationId": "1f145abe-a212-6180-9014-199ed11c02a8",
+            "imageId": "d5b850f2-d5c6-4c94-83eb-f5bc3b9c45c3",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145abe-a212-6180-9014-199ed11c02a8/nano-banana-2_plain_dark_background_empty_chart_canvas_clean_axes_no_data_plotted-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide15\\v2.jpg"
+          },
+          {
+            "generationId": "1f145abe-a212-6180-9014-199ed11c02a8",
+            "imageId": "aecd7b4f-d2d7-4849-86f9-b86ac316e573",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145abe-a212-6180-9014-199ed11c02a8/nano-banana-2_plain_dark_background_empty_chart_canvas_clean_axes_no_data_plotted-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide15\\v3.jpg"
+          },
+          {
+            "generationId": "1f145abe-a212-6180-9014-199ed11c02a8",
+            "imageId": "33c51211-7d17-43a4-94cb-17e82e86d0b0",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145abe-a212-6180-9014-199ed11c02a8/nano-banana-2_plain_dark_background_empty_chart_canvas_clean_axes_no_data_plotted-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide15\\v4.jpg"
+          }
+        ],
+        "kf1Frames": [
+          {
+            "generationId": "1f145ac1-376f-62d0-a6fe-f80c8d9f5424",
+            "imageId": "0650f6ac-4c9a-4c68-943d-efcb07810ea4",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ac1-376f-62d0-a6fe-f80c8d9f5424/nano-banana-2_dark_background_with_baseline_financial_chart_structure_appearing_faint_grid_and-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide15\\kf1\\v1.jpg"
+          },
+          {
+            "generationId": "1f145ac1-376f-62d0-a6fe-f80c8d9f5424",
+            "imageId": "76b8691a-4170-467f-8ea0-f2dbe51f44f1",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ac1-376f-62d0-a6fe-f80c8d9f5424/nano-banana-2_dark_background_with_baseline_financial_chart_structure_appearing_faint_grid_and-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide15\\kf1\\v2.jpg"
+          },
+          {
+            "generationId": "1f145ac1-376f-62d0-a6fe-f80c8d9f5424",
+            "imageId": "e47b1623-e8f4-407f-ac92-c9d2f9e30fd1",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ac1-376f-62d0-a6fe-f80c8d9f5424/nano-banana-2_dark_background_with_baseline_financial_chart_structure_appearing_faint_grid_and-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide15\\kf1\\v3.jpg"
+          },
+          {
+            "generationId": "1f145ac1-376f-62d0-a6fe-f80c8d9f5424",
+            "imageId": "859e4502-f720-4ab6-bae2-74c2a6d3f2e8",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ac1-376f-62d0-a6fe-f80c8d9f5424/nano-banana-2_dark_background_with_baseline_financial_chart_structure_appearing_faint_grid_and-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide15\\kf1\\v4.jpg"
+          }
+        ],
+        "kf2Frames": [
+          {
+            "generationId": "1f145ac3-94ec-60f0-a286-3eccedad5465",
+            "imageId": "41a8438f-cce4-481a-ab5d-7bee602588ac",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ac3-94ec-60f0-a286-3eccedad5465/nano-banana-2_growth_trajectory_chart_emerging_upward_curve_with_teal_highlights_revenue_proje-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide15\\kf2\\v1.jpg"
+          },
+          {
+            "generationId": "1f145ac3-94ec-60f0-a286-3eccedad5465",
+            "imageId": "b1e464fe-847a-4245-93c3-7126abd44ef8",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ac3-94ec-60f0-a286-3eccedad5465/nano-banana-2_growth_trajectory_chart_emerging_upward_curve_with_teal_highlights_revenue_proje-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide15\\kf2\\v2.jpg"
+          },
+          {
+            "generationId": "1f145ac3-94ec-60f0-a286-3eccedad5465",
+            "imageId": "500f1643-e541-4219-ad34-7276618d5057",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ac3-94ec-60f0-a286-3eccedad5465/nano-banana-2_growth_trajectory_chart_emerging_upward_curve_with_teal_highlights_revenue_proje-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide15\\kf2\\v3.jpg"
+          },
+          {
+            "generationId": "1f145ac3-94ec-60f0-a286-3eccedad5465",
+            "imageId": "7a6247e5-73fa-4b73-91c9-69b8a563f219",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ac3-94ec-60f0-a286-3eccedad5465/nano-banana-2_growth_trajectory_chart_emerging_upward_curve_with_teal_highlights_revenue_proje-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide15\\kf2\\v4.jpg"
+          }
+        ],
+        "approvedStart": 0,
+        "approvedKf1": 0,
+        "approvedKf2": 0,
+        "videos": [
+          {
+            "label": "A",
+            "model": "kling-3.0",
+            "generationId": "1f145ebd-d3dc-6500-8844-e8307870b5e0",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ebd-d3dc-6500-8844-e8307870b5e0/kling-3.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide15\\vA-kling-3.0.mp4"
+          },
+          {
+            "label": "B",
+            "model": "kling-video-o-3",
+            "generationId": "1f145ec5-1175-6cc0-a899-b4a67a0fbac7",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ec5-1175-6cc0-a899-b4a67a0fbac7/kling-video-o-3_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide15\\vB-kling-video-o-3.mp4"
+          },
+          {
+            "label": "C",
+            "model": "seedance-2.0",
+            "generationId": "1f145ecb-1f1f-6aa0-a653-c237ba850854",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ecb-1f1f-6aa0-a653-c237ba850854/seedance-2.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide15\\vC-seedance-2.0.mp4"
+          },
+          {
+            "label": "D",
+            "model": "seedance-1.0-pro",
+            "generationId": "1f145ed2-ca2f-69c0-9a63-46d52ff4ccf3",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ed2-ca2f-69c0-9a63-46d52ff4ccf3/seedance-1.0-pro_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide15\\vD-seedance-1.0-pro.mp4"
+          }
+        ]
+      }
+    },
+    "16": {
+      "name": "Financials",
+      "bgType": "full-bg",
+      "originalBlobUrl": "https://tjtvxp4xul5oynxz.public.blob.vercel-storage.com/slides/media/image44-y40isFri99r5Slhc3n3LrLc8Cfjfvk.png",
+      "dimensions": {
+        "w": 2752,
+        "h": 1536
+      },
+      "prompts": {
+        "strip": "plain dark background, minimal lines, empty financial canvas",
+        "kf1": "dark background with spreadsheet structure emerging, row and column outlines forming",
+        "kf2": "detailed financial breakdown visualization, table rows and bar charts materializing, teal highlights"
+      },
+      "state": {
+        "uploadedImageId": "31f6385c-1dd8-43bb-ad4a-120a5a3beb4d",
+        "startFrames": [
+          {
+            "generationId": "1f145ac6-6972-6930-b01f-ac18ebe611d1",
+            "imageId": "6a4e17d7-4ac3-4e07-ab95-c976a660b803",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ac6-6972-6930-b01f-ac18ebe611d1/nano-banana-2_plain_dark_background_minimal_lines_empty_financial_canvas-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide16\\v1.jpg",
+            "videoUploadId": "afafbffe-93b5-4e1c-9dc6-e0f64b51eb51"
+          },
+          {
+            "generationId": "1f145ac6-6972-6930-b01f-ac18ebe611d1",
+            "imageId": "73f52308-1f9a-4b83-bfec-a5a032c2a5e0",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ac6-6972-6930-b01f-ac18ebe611d1/nano-banana-2_plain_dark_background_minimal_lines_empty_financial_canvas-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide16\\v2.jpg"
+          },
+          {
+            "generationId": "1f145ac6-6972-6930-b01f-ac18ebe611d1",
+            "imageId": "eff0be8e-e186-4452-bb7c-994e3a9a5609",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ac6-6972-6930-b01f-ac18ebe611d1/nano-banana-2_plain_dark_background_minimal_lines_empty_financial_canvas-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide16\\v3.jpg"
+          },
+          {
+            "generationId": "1f145ac6-6972-6930-b01f-ac18ebe611d1",
+            "imageId": "83f92708-426b-400e-b01e-79b2ebfb1908",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ac6-6972-6930-b01f-ac18ebe611d1/nano-banana-2_plain_dark_background_minimal_lines_empty_financial_canvas-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide16\\v4.jpg"
+          }
+        ],
+        "kf1Frames": [
+          {
+            "generationId": "1f145ac9-44a6-6130-93b1-5c9774199802",
+            "imageId": "6c538b5b-7581-4e15-b0ba-45c7f7d4e613",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ac9-44a6-6130-93b1-5c9774199802/nano-banana-2_dark_background_with_spreadsheet_structure_emerging_row_and_column_outlines_form-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide16\\kf1\\v1.jpg"
+          },
+          {
+            "generationId": "1f145ac9-44a6-6130-93b1-5c9774199802",
+            "imageId": "6924b73d-0ace-478b-8b9c-dda0474bd5a5",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ac9-44a6-6130-93b1-5c9774199802/nano-banana-2_dark_background_with_spreadsheet_structure_emerging_row_and_column_outlines_form-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide16\\kf1\\v2.jpg"
+          },
+          {
+            "generationId": "1f145ac9-44a6-6130-93b1-5c9774199802",
+            "imageId": "048e1f90-9c04-43ea-ab9d-5779b00c5261",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ac9-44a6-6130-93b1-5c9774199802/nano-banana-2_dark_background_with_spreadsheet_structure_emerging_row_and_column_outlines_form-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide16\\kf1\\v3.jpg"
+          },
+          {
+            "generationId": "1f145ac9-44a6-6130-93b1-5c9774199802",
+            "imageId": "fd18197b-ce33-4b56-beae-a1ce71d19ea1",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ac9-44a6-6130-93b1-5c9774199802/nano-banana-2_dark_background_with_spreadsheet_structure_emerging_row_and_column_outlines_form-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide16\\kf1\\v4.jpg"
+          }
+        ],
+        "kf2Frames": [
+          {
+            "generationId": "1f145acc-1b62-6ff0-83d9-5dba9bc5c8bd",
+            "imageId": "b4afe627-9d96-4dc0-bd9e-803df7344f86",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145acc-1b62-6ff0-83d9-5dba9bc5c8bd/nano-banana-2_detailed_financial_breakdown_visualization_table_rows_and_bar_charts_materializi-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide16\\kf2\\v1.jpg"
+          },
+          {
+            "generationId": "1f145acc-1b62-6ff0-83d9-5dba9bc5c8bd",
+            "imageId": "4b1edf3d-604c-40b6-b932-ce61960d36ef",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145acc-1b62-6ff0-83d9-5dba9bc5c8bd/nano-banana-2_detailed_financial_breakdown_visualization_table_rows_and_bar_charts_materializi-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide16\\kf2\\v2.jpg"
+          },
+          {
+            "generationId": "1f145acc-1b62-6ff0-83d9-5dba9bc5c8bd",
+            "imageId": "53f712f9-e6ef-47eb-aa0a-b89f243ab691",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145acc-1b62-6ff0-83d9-5dba9bc5c8bd/nano-banana-2_detailed_financial_breakdown_visualization_table_rows_and_bar_charts_materializi-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide16\\kf2\\v3.jpg"
+          },
+          {
+            "generationId": "1f145acc-1b62-6ff0-83d9-5dba9bc5c8bd",
+            "imageId": "1bb8a340-68ed-44ea-8a3e-2fa340e05168",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145acc-1b62-6ff0-83d9-5dba9bc5c8bd/nano-banana-2_detailed_financial_breakdown_visualization_table_rows_and_bar_charts_materializi-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide16\\kf2\\v4.jpg"
+          }
+        ],
+        "approvedStart": 0,
+        "approvedKf1": 0,
+        "approvedKf2": 0,
+        "videos": [
+          {
+            "label": "A",
+            "model": "kling-3.0",
+            "generationId": "1f145ed7-2756-6d20-8320-572ce533e24f",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ed7-2756-6d20-8320-572ce533e24f/kling-3.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide16\\vA-kling-3.0.mp4"
+          },
+          {
+            "label": "B",
+            "model": "kling-video-o-3",
+            "generationId": "1f145edd-c042-61a0-b851-890e7eb918d8",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145edd-c042-61a0-b851-890e7eb918d8/kling-video-o-3_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide16\\vB-kling-video-o-3.mp4"
+          },
+          {
+            "label": "C",
+            "model": "seedance-2.0",
+            "generationId": "1f145ee4-51c9-64b0-9f32-bb5c147c9759",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ee4-51c9-64b0-9f32-bb5c147c9759/seedance-2.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide16\\vC-seedance-2.0.mp4"
+          },
+          {
+            "label": "D",
+            "model": "seedance-1.0-pro",
+            "generationId": "1f145eea-4565-63d0-b7a5-68e13413fd01",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145eea-4565-63d0-b7a5-68e13413fd01/seedance-1.0-pro_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide16\\vD-seedance-1.0-pro.mp4"
+          }
+        ]
+      }
+    },
+    "17": {
+      "name": "Risk",
+      "bgType": "full-bg",
+      "originalBlobUrl": "https://tjtvxp4xul5oynxz.public.blob.vercel-storage.com/slides/media/image45-SNlJo6qkP64bgt8PNn4dVIvl7S8duM.png",
+      "dimensions": {
+        "w": 2752,
+        "h": 1536
+      },
+      "prompts": {
+        "strip": "plain dark background, subtle gradient, empty minimal space",
+        "kf1": "dark background with abstract risk matrix elements beginning to form, geometric shapes",
+        "kf2": "risk mitigation framework visualization, interconnected nodes and pathways, teal accents"
+      },
+      "state": {
+        "uploadedImageId": "95069b82-21c6-45eb-852b-1450177e8ff7",
+        "startFrames": [
+          {
+            "generationId": "1f145acf-c9fd-6260-b29d-dfe6abc50343",
+            "imageId": "c5ee574b-859b-449d-8c17-b0bdbaca763e",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145acf-c9fd-6260-b29d-dfe6abc50343/nano-banana-2_plain_dark_background_subtle_gradient_empty_minimal_space-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide17\\v1.jpg",
+            "videoUploadId": "487d94ec-e74f-46ed-a1b2-afab3013afd6"
+          },
+          {
+            "generationId": "1f145acf-c9fd-6260-b29d-dfe6abc50343",
+            "imageId": "8e2453be-db49-4c6c-8fc2-ee8f1c6faaef",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145acf-c9fd-6260-b29d-dfe6abc50343/nano-banana-2_plain_dark_background_subtle_gradient_empty_minimal_space-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide17\\v2.jpg"
+          },
+          {
+            "generationId": "1f145acf-c9fd-6260-b29d-dfe6abc50343",
+            "imageId": "2f1d8e38-1f0f-4455-bac1-c0aace3e6eb4",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145acf-c9fd-6260-b29d-dfe6abc50343/nano-banana-2_plain_dark_background_subtle_gradient_empty_minimal_space-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide17\\v3.jpg"
+          },
+          {
+            "generationId": "1f145acf-c9fd-6260-b29d-dfe6abc50343",
+            "imageId": "80e43c88-7f53-45a5-b107-954dd422d733",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145acf-c9fd-6260-b29d-dfe6abc50343/nano-banana-2_plain_dark_background_subtle_gradient_empty_minimal_space-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide17\\v4.jpg"
+          }
+        ],
+        "kf1Frames": [
+          {
+            "generationId": "1f145ad1-a30c-6aa0-9607-4e604d604313",
+            "imageId": "8a454881-52cd-4fbe-a8ac-43e33dcf62f8",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ad1-a30c-6aa0-9607-4e604d604313/nano-banana-2_dark_background_with_abstract_risk_matrix_elements_beginning_to_form_geometric_s-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide17\\kf1\\v1.jpg"
+          },
+          {
+            "generationId": "1f145ad1-a30c-6aa0-9607-4e604d604313",
+            "imageId": "fcc905f0-cb95-4634-b6b5-8fb2418c6bd5",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ad1-a30c-6aa0-9607-4e604d604313/nano-banana-2_dark_background_with_abstract_risk_matrix_elements_beginning_to_form_geometric_s-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide17\\kf1\\v2.jpg"
+          },
+          {
+            "generationId": "1f145ad1-a30c-6aa0-9607-4e604d604313",
+            "imageId": "f6812f62-949a-477a-af02-11807852c8bb",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ad1-a30c-6aa0-9607-4e604d604313/nano-banana-2_dark_background_with_abstract_risk_matrix_elements_beginning_to_form_geometric_s-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide17\\kf1\\v3.jpg"
+          },
+          {
+            "generationId": "1f145ad1-a30c-6aa0-9607-4e604d604313",
+            "imageId": "3e83d900-2d23-4256-b73f-f02dffd1a941",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ad1-a30c-6aa0-9607-4e604d604313/nano-banana-2_dark_background_with_abstract_risk_matrix_elements_beginning_to_form_geometric_s-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide17\\kf1\\v4.jpg"
+          }
+        ],
+        "kf2Frames": [
+          {
+            "generationId": "1f145ad4-192e-6240-b779-2b9d44939508",
+            "imageId": "49b6afb4-9a3b-439b-92e1-9a2e46b318e5",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ad4-192e-6240-b779-2b9d44939508/nano-banana-2_risk_mitigation_framework_visualization_interconnected_nodes_and_pathways_teal_a-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide17\\kf2\\v1.jpg"
+          },
+          {
+            "generationId": "1f145ad4-192e-6240-b779-2b9d44939508",
+            "imageId": "fe8ae367-df25-470f-891b-225aa69c92fd",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ad4-192e-6240-b779-2b9d44939508/nano-banana-2_risk_mitigation_framework_visualization_interconnected_nodes_and_pathways_teal_a-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide17\\kf2\\v2.jpg"
+          },
+          {
+            "generationId": "1f145ad4-192e-6240-b779-2b9d44939508",
+            "imageId": "5741e0c1-533f-47da-aad1-f508b20280c7",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ad4-192e-6240-b779-2b9d44939508/nano-banana-2_risk_mitigation_framework_visualization_interconnected_nodes_and_pathways_teal_a-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide17\\kf2\\v3.jpg"
+          },
+          {
+            "generationId": "1f145ad4-192e-6240-b779-2b9d44939508",
+            "imageId": "72deb114-f074-4fe2-93b6-689f2995a666",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ad4-192e-6240-b779-2b9d44939508/nano-banana-2_risk_mitigation_framework_visualization_interconnected_nodes_and_pathways_teal_a-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide17\\kf2\\v4.jpg"
+          }
+        ],
+        "approvedStart": 0,
+        "approvedKf1": 0,
+        "approvedKf2": 0,
+        "videos": [
+          {
+            "label": "A",
+            "model": "kling-3.0",
+            "generationId": "1f145eee-8872-6520-a26d-b0e55bc2bc42",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145eee-8872-6520-a26d-b0e55bc2bc42/kling-3.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide17\\vA-kling-3.0.mp4"
+          },
+          {
+            "label": "B",
+            "model": "kling-video-o-3",
+            "generationId": "1f145ef6-3c34-6d40-98de-022a408a8646",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ef6-3c34-6d40-98de-022a408a8646/kling-video-o-3_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide17\\vB-kling-video-o-3.mp4"
+          },
+          {
+            "label": "C",
+            "model": "seedance-2.0",
+            "generationId": "1f145efc-d028-6230-b1fd-f3c8598c6c8f",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145efc-d028-6230-b1fd-f3c8598c6c8f/seedance-2.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide17\\vC-seedance-2.0.mp4"
+          },
+          {
+            "label": "D",
+            "model": "seedance-1.0-pro",
+            "generationId": "1f145f02-c0f3-6de0-b824-98e9951d30c2",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145f02-c0f3-6de0-b824-98e9951d30c2/seedance-1.0-pro_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide17\\vD-seedance-1.0-pro.mp4"
+          }
+        ]
+      }
+    },
+    "18": {
+      "name": "CTA",
+      "bgType": "full-bg",
+      "originalBlobUrl": "https://tjtvxp4xul5oynxz.public.blob.vercel-storage.com/slides/media/image46-NIjpbYDQ2Cna1Xf6ZJrCVRVnkFIP7O.png",
+      "dimensions": {
+        "w": 2752,
+        "h": 1536
+      },
+      "prompts": {
+        "strip": "plain dark background, subtle vignette edges, minimal deep dark canvas",
+        "kf1": "dark background with Letiverse brand atmosphere beginning to build, subtle cyan glow at center",
+        "kf2": "full Letiverse brand universe visualization, dynamic teal energy, invitation and momentum"
+      },
+      "state": {
+        "uploadedImageId": "cdf3a474-796e-42cc-b565-f6acd9cd9c96",
+        "startFrames": [
+          {
+            "generationId": "1f145ad6-6d28-6f10-ab78-2330152bf33e",
+            "imageId": "21d1d0da-48a6-462c-8ba8-90a389145cea",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ad6-6d28-6f10-ab78-2330152bf33e/nano-banana-2_plain_dark_background_subtle_vignette_edges_minimal_deep_dark_canvas-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide18\\v1.jpg",
+            "videoUploadId": "28f15a04-299e-4c44-9870-dc40d9feac97"
+          },
+          {
+            "generationId": "1f145ad6-6d28-6f10-ab78-2330152bf33e",
+            "imageId": "b5c5422c-90d6-4936-97ad-e7ef6342baec",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ad6-6d28-6f10-ab78-2330152bf33e/nano-banana-2_plain_dark_background_subtle_vignette_edges_minimal_deep_dark_canvas-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide18\\v2.jpg"
+          },
+          {
+            "generationId": "1f145ad6-6d28-6f10-ab78-2330152bf33e",
+            "imageId": "1736b9f7-27d1-4c6b-bc94-4c89d2067ce7",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ad6-6d28-6f10-ab78-2330152bf33e/nano-banana-2_plain_dark_background_subtle_vignette_edges_minimal_deep_dark_canvas-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide18\\v3.jpg"
+          },
+          {
+            "generationId": "1f145ad6-6d28-6f10-ab78-2330152bf33e",
+            "imageId": "4e18bc9c-1150-4094-b80d-d3d714e84405",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ad6-6d28-6f10-ab78-2330152bf33e/nano-banana-2_plain_dark_background_subtle_vignette_edges_minimal_deep_dark_canvas-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide18\\v4.jpg"
+          }
+        ],
+        "kf1Frames": [
+          {
+            "generationId": "1f145ad8-870f-6940-9d06-97fb0ee4e107",
+            "imageId": "1f936d3d-33b2-4ece-a8f5-254572f426bd",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ad8-870f-6940-9d06-97fb0ee4e107/nano-banana-2_dark_background_with_Letiverse_brand_atmosphere_beginning_to_build_subtle_cyan_g-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide18\\kf1\\v1.jpg"
+          },
+          {
+            "generationId": "1f145ad8-870f-6940-9d06-97fb0ee4e107",
+            "imageId": "5d21aa3c-3d42-46a4-ae65-d43eda68117f",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ad8-870f-6940-9d06-97fb0ee4e107/nano-banana-2_dark_background_with_Letiverse_brand_atmosphere_beginning_to_build_subtle_cyan_g-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide18\\kf1\\v2.jpg"
+          },
+          {
+            "generationId": "1f145ad8-870f-6940-9d06-97fb0ee4e107",
+            "imageId": "4fb138ef-0d47-4b01-ab45-d8abc8d1e933",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ad8-870f-6940-9d06-97fb0ee4e107/nano-banana-2_dark_background_with_Letiverse_brand_atmosphere_beginning_to_build_subtle_cyan_g-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide18\\kf1\\v3.jpg"
+          },
+          {
+            "generationId": "1f145ad8-870f-6940-9d06-97fb0ee4e107",
+            "imageId": "37309b6c-71d0-412d-bc42-31abe4fd1adb",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ad8-870f-6940-9d06-97fb0ee4e107/nano-banana-2_dark_background_with_Letiverse_brand_atmosphere_beginning_to_build_subtle_cyan_g-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide18\\kf1\\v4.jpg"
+          }
+        ],
+        "kf2Frames": [
+          {
+            "generationId": "1f145ada-63a8-6db0-83dc-4f630a3d16a2",
+            "imageId": "0d165559-925e-4e29-a296-3de9df828552",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ada-63a8-6db0-83dc-4f630a3d16a2/nano-banana-2_full_Letiverse_brand_universe_visualization_dynamic_teal_energy_invitation_and_m-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide18\\kf2\\v1.jpg"
+          },
+          {
+            "generationId": "1f145ada-63a8-6db0-83dc-4f630a3d16a2",
+            "imageId": "1624e1c0-6e5f-4938-86a6-927d1958e3d2",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ada-63a8-6db0-83dc-4f630a3d16a2/nano-banana-2_full_Letiverse_brand_universe_visualization_dynamic_teal_energy_invitation_and_m-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide18\\kf2\\v2.jpg"
+          },
+          {
+            "generationId": "1f145ada-63a8-6db0-83dc-4f630a3d16a2",
+            "imageId": "131a8214-1af0-44ea-8a30-1d47fea3b756",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ada-63a8-6db0-83dc-4f630a3d16a2/nano-banana-2_full_Letiverse_brand_universe_visualization_dynamic_teal_energy_invitation_and_m-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide18\\kf2\\v3.jpg"
+          },
+          {
+            "generationId": "1f145ada-63a8-6db0-83dc-4f630a3d16a2",
+            "imageId": "b4c040c6-d0a4-41d2-9bbd-7b7a6f750e6d",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ada-63a8-6db0-83dc-4f630a3d16a2/nano-banana-2_full_Letiverse_brand_universe_visualization_dynamic_teal_energy_invitation_and_m-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide18\\kf2\\v4.jpg"
+          }
+        ],
+        "approvedStart": 0,
+        "approvedKf1": 0,
+        "approvedKf2": 0,
+        "videos": [
+          {
+            "label": "A",
+            "model": "kling-3.0",
+            "generationId": "1f145f10-1426-6780-8f15-2b9ffad075b2",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145f10-1426-6780-8f15-2b9ffad075b2/kling-3.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide18\\vA-kling-3.0.mp4"
+          },
+          {
+            "label": "B",
+            "model": "kling-video-o-3",
+            "generationId": "1f145f17-2e34-6d50-ab73-2c8d3af5a40c",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145f17-2e34-6d50-ab73-2c8d3af5a40c/kling-video-o-3_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide18\\vB-kling-video-o-3.mp4"
+          },
+          {
+            "label": "C",
+            "model": "seedance-2.0",
+            "generationId": "1f145f1e-4d2a-6140-a8f7-528d3f7b0fd0",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145f1e-4d2a-6140-a8f7-528d3f7b0fd0/seedance-2.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide18\\vC-seedance-2.0.mp4"
+          },
+          {
+            "label": "D",
+            "model": "seedance-1.0-pro",
+            "generationId": "1f145f24-d330-6ef0-981e-0af2d60667d4",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145f24-d330-6ef0-981e-0af2d60667d4/seedance-1.0-pro_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide18\\vD-seedance-1.0-pro.mp4"
+          }
+        ]
+      }
+    },
+    "01": {
+      "name": "Hero",
+      "bgType": "full-bg",
+      "originalBlobUrl": "https://tjtvxp4xul5oynxz.public.blob.vercel-storage.com/slides/media/image2-7IJ99G45HUGwGxHgPUygqbDto7Jfdx.png",
+      "dimensions": {
+        "w": 2752,
+        "h": 1536
+      },
+      "prompts": {
+        "strip": "empty dark landscape, bare terrain, no structures, subtle starfield overhead, clean minimal atmosphere, deep dark sky",
+        "kf1": "dark terrain with faint city lights beginning on the horizon, subtle glow of emerging infrastructure",
+        "kf2": "dramatic dark cityscape with glowing teal neon lights, premium venue silhouettes, cinematic atmosphere"
+      },
+      "state": {
+        "uploadedImageId": "94f3ab69-b0ca-495b-a836-4b426deeb86c",
+        "startFrames": [
+          {
+            "generationId": "1f145a94-1597-6f90-9f15-7b3667e15e67",
+            "imageId": "921745b1-b5ba-4b69-be5f-68d11662492b",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a94-1597-6f90-9f15-7b3667e15e67/nano-banana-2_empty_dark_landscape_bare_terrain_no_structures_subtle_starfield_overhead_clean_-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide01\\v1.jpg",
+            "videoUploadId": "9511c6ec-a52f-406a-abbc-8283b7fdc080"
+          },
+          {
+            "generationId": "1f145a94-1597-6f90-9f15-7b3667e15e67",
+            "imageId": "f09692c6-1324-4112-a776-a95a5ae06a71",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a94-1597-6f90-9f15-7b3667e15e67/nano-banana-2_empty_dark_landscape_bare_terrain_no_structures_subtle_starfield_overhead_clean_-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide01\\v2.jpg"
+          },
+          {
+            "generationId": "1f145a94-1597-6f90-9f15-7b3667e15e67",
+            "imageId": "0247505c-435a-4434-9c00-5ff5dadef0f2",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a94-1597-6f90-9f15-7b3667e15e67/nano-banana-2_empty_dark_landscape_bare_terrain_no_structures_subtle_starfield_overhead_clean_-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide01\\v3.jpg"
+          },
+          {
+            "generationId": "1f145a94-1597-6f90-9f15-7b3667e15e67",
+            "imageId": "b9785694-f65d-49f4-963d-77bf6b8e3cfd",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a94-1597-6f90-9f15-7b3667e15e67/nano-banana-2_empty_dark_landscape_bare_terrain_no_structures_subtle_starfield_overhead_clean_-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide01\\v4.jpg"
+          }
+        ],
+        "kf1Frames": [
+          {
+            "generationId": "1f145a97-0c87-6150-823a-7ffc895acfda",
+            "imageId": "425fddba-f5f2-4988-ad64-34c994b25259",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a97-0c87-6150-823a-7ffc895acfda/nano-banana-2_dark_terrain_with_faint_city_lights_beginning_on_the_horizon_subtle_glow_of_emer-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide01\\kf1\\v1.jpg",
+            "videoUploadId": "7719f471-b49a-4bf9-9ae7-599b3aa7a246"
+          },
+          {
+            "generationId": "1f145a97-0c87-6150-823a-7ffc895acfda",
+            "imageId": "4d31b848-8267-4f98-b0cd-a590d279efd9",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a97-0c87-6150-823a-7ffc895acfda/nano-banana-2_dark_terrain_with_faint_city_lights_beginning_on_the_horizon_subtle_glow_of_emer-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide01\\kf1\\v2.jpg"
+          },
+          {
+            "generationId": "1f145a97-0c87-6150-823a-7ffc895acfda",
+            "imageId": "aab89fd2-f458-44da-9923-646ea726f776",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a97-0c87-6150-823a-7ffc895acfda/nano-banana-2_dark_terrain_with_faint_city_lights_beginning_on_the_horizon_subtle_glow_of_emer-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide01\\kf1\\v3.jpg"
+          },
+          {
+            "generationId": "1f145a97-0c87-6150-823a-7ffc895acfda",
+            "imageId": "877d42ed-aa9c-4950-928b-a004ce06c12f",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a97-0c87-6150-823a-7ffc895acfda/nano-banana-2_dark_terrain_with_faint_city_lights_beginning_on_the_horizon_subtle_glow_of_emer-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide01\\kf1\\v4.jpg"
+          }
+        ],
+        "kf2Frames": [
+          {
+            "generationId": "1f145a9a-0679-6ad0-b515-33112abb60f4",
+            "imageId": "5aa7c2a3-b6b7-41e0-961f-8190a5e7b9a5",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a9a-0679-6ad0-b515-33112abb60f4/nano-banana-2_dramatic_dark_cityscape_with_glowing_teal_neon_lights_premium_venue_silhouettes_-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide01\\kf2\\v1.jpg",
+            "videoUploadId": "2572b194-6dc3-45e7-a8d4-2e28622724d3"
+          },
+          {
+            "generationId": "1f145a9a-0679-6ad0-b515-33112abb60f4",
+            "imageId": "ea15419c-bb61-44f9-8a4f-a34f8a56a9cb",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a9a-0679-6ad0-b515-33112abb60f4/nano-banana-2_dramatic_dark_cityscape_with_glowing_teal_neon_lights_premium_venue_silhouettes_-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide01\\kf2\\v2.jpg"
+          },
+          {
+            "generationId": "1f145a9a-0679-6ad0-b515-33112abb60f4",
+            "imageId": "732952cf-18e7-466f-aae5-309f5171ec8d",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a9a-0679-6ad0-b515-33112abb60f4/nano-banana-2_dramatic_dark_cityscape_with_glowing_teal_neon_lights_premium_venue_silhouettes_-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide01\\kf2\\v3.jpg"
+          },
+          {
+            "generationId": "1f145a9a-0679-6ad0-b515-33112abb60f4",
+            "imageId": "2aa19f18-99a6-497e-9006-7ba124b73859",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a9a-0679-6ad0-b515-33112abb60f4/nano-banana-2_dramatic_dark_cityscape_with_glowing_teal_neon_lights_premium_venue_silhouettes_-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide01\\kf2\\v4.jpg"
+          }
+        ],
+        "approvedStart": 0,
+        "approvedKf1": 0,
+        "approvedKf2": 0,
+        "videos": [
+          {
+            "label": "A",
+            "model": "kling-3.0",
+            "generationId": "1f145d5c-f8ea-6a20-800c-0e4933c3c9b6",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145d5c-f8ea-6a20-800c-0e4933c3c9b6/kling-3.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide01\\vA-kling-3.0.mp4"
+          },
+          {
+            "label": "B",
+            "model": "kling-video-o-3",
+            "generationId": "1f145d64-c001-6df0-a0a5-e9144af3c358",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145d64-c001-6df0-a0a5-e9144af3c358/kling-video-o-3_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide01\\vB-kling-video-o-3.mp4"
+          },
+          {
+            "label": "C",
+            "model": "seedance-2.0",
+            "generationId": "1f145d6a-cd42-6c20-a8d9-08e1944cadac",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145d6a-cd42-6c20-a8d9-08e1944cadac/seedance-2.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide01\\vC-seedance-2.0.mp4"
+          },
+          {
+            "label": "D",
+            "model": "seedance-1.0-pro",
+            "generationId": "1f145d73-9659-65c0-9642-a87a3fba93e4",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145d73-9659-65c0-9642-a87a3fba93e4/seedance-1.0-pro_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide01\\vD-seedance-1.0-pro.mp4"
+          }
+        ]
+      }
+    },
+    "02": {
+      "name": "AI Shift",
+      "bgType": "full-bg",
+      "originalBlobUrl": "https://tjtvxp4xul5oynxz.public.blob.vercel-storage.com/slides/media/image4-KQY7Ulzwlu7r8l7br1ggxjm75SrZ09.png",
+      "dimensions": {
+        "w": 2752,
+        "h": 1536
+      },
+      "prompts": {
+        "strip": "empty sky, soft plain clouds, gentle blue atmospheric haze, no structures, no data overlays",
+        "kf1": "clouds with subtle glowing data streams beginning to appear, faint neural network traces",
+        "kf2": "dynamic cloud formations with glowing AI data flows, cyan teal energy streams, digital transformation atmosphere"
+      },
+      "state": {
+        "uploadedImageId": "880108b7-6663-475a-9dea-b405a11b6a77",
+        "startFrames": [
+          {
+            "generationId": "1f145a9c-90fc-6700-8c64-e22fc4a93366",
+            "imageId": "11fc28fa-8419-4bd8-ab21-b28101cbcc1f",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a9c-90fc-6700-8c64-e22fc4a93366/nano-banana-2_empty_sky_soft_plain_clouds_gentle_blue_atmospheric_haze_no_structures_no_data_o-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide02\\v1.jpg",
+            "videoUploadId": "1c7229ac-8d5a-4d50-9c86-26e54eaf132a"
+          },
+          {
+            "generationId": "1f145a9c-90fc-6700-8c64-e22fc4a93366",
+            "imageId": "5b569623-0d52-44d5-ab10-ca8c95ad65a6",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a9c-90fc-6700-8c64-e22fc4a93366/nano-banana-2_empty_sky_soft_plain_clouds_gentle_blue_atmospheric_haze_no_structures_no_data_o-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide02\\v2.jpg"
+          },
+          {
+            "generationId": "1f145a9c-90fc-6700-8c64-e22fc4a93366",
+            "imageId": "5fe623e9-f5fd-4a63-80e6-1a910576dd84",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a9c-90fc-6700-8c64-e22fc4a93366/nano-banana-2_empty_sky_soft_plain_clouds_gentle_blue_atmospheric_haze_no_structures_no_data_o-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide02\\v3.jpg"
+          },
+          {
+            "generationId": "1f145a9c-90fc-6700-8c64-e22fc4a93366",
+            "imageId": "677f3fc5-f10f-4579-872a-7dcef8fa826c",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a9c-90fc-6700-8c64-e22fc4a93366/nano-banana-2_empty_sky_soft_plain_clouds_gentle_blue_atmospheric_haze_no_structures_no_data_o-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide02\\v4.jpg"
+          }
+        ],
+        "kf1Frames": [
+          {
+            "generationId": "1f145a9e-be6d-6840-bf8e-dd55ab9b85b7",
+            "imageId": "2d5b1ad4-ae68-4ad0-86f1-055a3d830e8d",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a9e-be6d-6840-bf8e-dd55ab9b85b7/nano-banana-2_clouds_with_subtle_glowing_data_streams_beginning_to_appear_faint_neural_network-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide02\\kf1\\v1.jpg"
+          },
+          {
+            "generationId": "1f145a9e-be6d-6840-bf8e-dd55ab9b85b7",
+            "imageId": "aa5fd91b-3ff8-4f15-8f4b-6319138150da",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a9e-be6d-6840-bf8e-dd55ab9b85b7/nano-banana-2_clouds_with_subtle_glowing_data_streams_beginning_to_appear_faint_neural_network-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide02\\kf1\\v2.jpg"
+          },
+          {
+            "generationId": "1f145a9e-be6d-6840-bf8e-dd55ab9b85b7",
+            "imageId": "b6c1ad31-0dea-4351-8dac-ffc1654ee8a7",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a9e-be6d-6840-bf8e-dd55ab9b85b7/nano-banana-2_clouds_with_subtle_glowing_data_streams_beginning_to_appear_faint_neural_network-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide02\\kf1\\v3.jpg"
+          },
+          {
+            "generationId": "1f145a9e-be6d-6840-bf8e-dd55ab9b85b7",
+            "imageId": "0fec2b17-4862-4137-a766-ed26687009b5",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a9e-be6d-6840-bf8e-dd55ab9b85b7/nano-banana-2_clouds_with_subtle_glowing_data_streams_beginning_to_appear_faint_neural_network-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide02\\kf1\\v4.jpg"
+          }
+        ],
+        "kf2Frames": [
+          {
+            "generationId": "1f145aa0-ac55-6f20-a966-9b1897b80e30",
+            "imageId": "f072354d-6d43-4b64-943f-c07875645c53",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aa0-ac55-6f20-a966-9b1897b80e30/nano-banana-2_dynamic_cloud_formations_with_glowing_AI_data_flows_cyan_teal_energy_streams_dig-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide02\\kf2\\v1.jpg"
+          },
+          {
+            "generationId": "1f145aa0-ac55-6f20-a966-9b1897b80e30",
+            "imageId": "2741e43c-1714-4627-8232-4a490ed54c36",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aa0-ac55-6f20-a966-9b1897b80e30/nano-banana-2_dynamic_cloud_formations_with_glowing_AI_data_flows_cyan_teal_energy_streams_dig-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide02\\kf2\\v2.jpg"
+          },
+          {
+            "generationId": "1f145aa0-ac55-6f20-a966-9b1897b80e30",
+            "imageId": "7d17ed36-53e0-44fc-9e16-355bb51e755b",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aa0-ac55-6f20-a966-9b1897b80e30/nano-banana-2_dynamic_cloud_formations_with_glowing_AI_data_flows_cyan_teal_energy_streams_dig-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide02\\kf2\\v3.jpg"
+          },
+          {
+            "generationId": "1f145aa0-ac55-6f20-a966-9b1897b80e30",
+            "imageId": "c0b06e75-e2e9-452b-8343-10896e4f25f3",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aa0-ac55-6f20-a966-9b1897b80e30/nano-banana-2_dynamic_cloud_formations_with_glowing_AI_data_flows_cyan_teal_energy_streams_dig-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide02\\kf2\\v4.jpg"
+          }
+        ],
+        "approvedStart": 0,
+        "approvedKf1": 0,
+        "approvedKf2": 0,
+        "videos": [
+          {
+            "label": "A",
+            "model": "kling-3.0",
+            "generationId": "1f145d78-102b-6700-a40c-c177a864f8c4",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145d78-102b-6700-a40c-c177a864f8c4/kling-3.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide02\\vA-kling-3.0.mp4"
+          },
+          {
+            "label": "B",
+            "model": "kling-video-o-3",
+            "generationId": "1f145d7f-d162-6c50-95c0-9649e93c9fca",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145d7f-d162-6c50-95c0-9649e93c9fca/kling-video-o-3_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide02\\vB-kling-video-o-3.mp4"
+          },
+          {
+            "label": "C",
+            "model": "seedance-2.0",
+            "generationId": "1f145d85-dc8a-68c0-9c45-a76555a9e53d",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145d85-dc8a-68c0-9c45-a76555a9e53d/seedance-2.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide02\\vC-seedance-2.0.mp4"
+          },
+          {
+            "label": "D",
+            "model": "seedance-1.0-pro",
+            "generationId": "1f145d8a-afb3-6b80-8fbf-4527790cba52",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145d8a-afb3-6b80-8fbf-4527790cba52/seedance-1.0-pro_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide02\\vD-seedance-1.0-pro.mp4"
+          }
+        ]
+      }
+    },
+    "03": {
+      "name": "Spatial Web",
+      "bgType": "text-to-image-replace",
+      "originalBlobUrl": null,
+      "dimensions": {
+        "w": 2752,
+        "h": 1536
+      },
+      "prompts": {
+        "new_image": "split screen composition, left half shows flat boring 2D website interface in muted grey and white, plain corporate web design, right half shows immersive 3D photorealistic venue tour with glowing teal cyan lighting, spatial holographic environment, dramatic contrast between flat 2D and dimensional 3D, cinematic quality, no text labels, no UI elements in 3D half",
+        "strip": "two plain empty panels side by side, light grey panel left, dark grey panel right, minimal clean",
+        "kf1": "split screen, left panel showing faint website wireframe, right panel showing emerging 3D architectural space",
+        "kf2": "split screen, left shows detailed flat website, right shows vibrant 3D Letiverse venue with teal lighting"
+      },
+      "state": {
+        "uploadedImageId": null,
+        "newImages": [
+          {
+            "generationId": "1f145a7a-f8ce-6ee0-8842-e8a30ae7cddc",
+            "imageId": "facdba7a-b856-4309-b1f0-b288beea426b",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a7a-f8ce-6ee0-8842-e8a30ae7cddc/nano-banana-2_split_screen_composition_left_half_displays_a_dull_flat_2D_website_interface_in_-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide03-new\\v1.jpg",
+            "videoUploadId": "927549e7-20a4-4389-9fd1-fe6716dde699"
+          },
+          {
+            "generationId": "1f145a7a-f8ce-6ee0-8842-e8a30ae7cddc",
+            "imageId": "adf9f387-d2c1-41c0-b090-f2c6e0e38011",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a7a-f8ce-6ee0-8842-e8a30ae7cddc/nano-banana-2_split_screen_composition_left_half_displays_a_dull_flat_2D_website_interface_in_-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide03-new\\v2.jpg"
+          },
+          {
+            "generationId": "1f145a7a-f8ce-6ee0-8842-e8a30ae7cddc",
+            "imageId": "968aa4ae-b792-488f-915f-49c56c9410e2",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a7a-f8ce-6ee0-8842-e8a30ae7cddc/nano-banana-2_split_screen_composition_left_half_displays_a_dull_flat_2D_website_interface_in_-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide03-new\\v3.jpg"
+          },
+          {
+            "generationId": "1f145a7a-f8ce-6ee0-8842-e8a30ae7cddc",
+            "imageId": "6b4aa05b-e44a-438b-bf3a-086da58526a3",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a7a-f8ce-6ee0-8842-e8a30ae7cddc/nano-banana-2_split_screen_composition_left_half_displays_a_dull_flat_2D_website_interface_in_-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide03-new\\v4.jpg"
+          }
+        ],
+        "startFrames": [],
+        "kf1Frames": [],
+        "kf2Frames": [],
+        "approvedNewImage": null,
+        "approvedStart": null,
+        "approvedKf1": null,
+        "approvedKf2": null,
+        "videos": [
+          {
+            "label": "A",
+            "model": "kling-3.0",
+            "generationId": "1f145d8e-f8fb-60a0-8c87-855d1cb2a079",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145d8e-f8fb-60a0-8c87-855d1cb2a079/kling-3.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide03\\vA-kling-3.0.mp4"
+          },
+          {
+            "label": "B",
+            "model": "kling-video-o-3",
+            "generationId": "1f145d94-fea2-6200-a10d-4a5bd11f2b3d",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145d94-fea2-6200-a10d-4a5bd11f2b3d/kling-video-o-3_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide03\\vB-kling-video-o-3.mp4"
+          },
+          {
+            "label": "C",
+            "model": "seedance-2.0",
+            "generationId": "1f145d9a-7425-6cc0-85ac-2e42b1a98bec",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145d9a-7425-6cc0-85ac-2e42b1a98bec/seedance-2.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide03\\vC-seedance-2.0.mp4"
+          },
+          {
+            "label": "D",
+            "model": "seedance-1.0-pro",
+            "generationId": "1f145da2-a739-6140-b2bb-82de278884bd",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145da2-a739-6140-b2bb-82de278884bd/seedance-1.0-pro_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide03\\vD-seedance-1.0-pro.mp4"
+          }
+        ]
+      }
+    },
+    "04": {
+      "name": "Best Twin",
+      "bgType": "css-dark-generate",
+      "originalBlobUrl": null,
+      "dimensions": {
+        "w": 2752,
+        "h": 1536
+      },
+      "prompts": {
+        "new_image": "dark futuristic hospitality interior, geometric glass and steel architecture, subtle teal cyan accent lighting along edges, premium modern venue atmosphere, ultra-high-end, abstract depth, no text",
+        "strip": "plain dark interior space, empty clean surfaces, minimal ambient light",
+        "kf1": "dark interior with architectural features beginning to emerge, subtle lighting accents",
+        "kf2": "premium dark venue interior fully revealed, dramatic teal edge lighting, depth and atmosphere"
+      },
+      "state": {
+        "uploadedImageId": "013a3c29-070d-4013-a37a-3783fd5e9262",
+        "newImages": [
+          {
+            "generationId": "1f145a7e-ecbe-61b0-92ba-dbd7d666720a",
+            "imageId": "043bb1b8-f86d-4f86-b426-614642ed8b70",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a7e-ecbe-61b0-92ba-dbd7d666720a/nano-banana-2_dark_futuristic_hospitality_interior_with_sleek_geometric_glass_and_steel_archit-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide04\\v1.jpg"
+          },
+          {
+            "generationId": "1f145a7e-ecbe-61b0-92ba-dbd7d666720a",
+            "imageId": "15c4d8f1-5ce9-469a-95b1-40ec0f6e6554",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a7e-ecbe-61b0-92ba-dbd7d666720a/nano-banana-2_dark_futuristic_hospitality_interior_with_sleek_geometric_glass_and_steel_archit-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide04\\v2.jpg"
+          },
+          {
+            "generationId": "1f145a7e-ecbe-61b0-92ba-dbd7d666720a",
+            "imageId": "139a380d-bf35-4e21-a7a9-d9a85b23af54",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a7e-ecbe-61b0-92ba-dbd7d666720a/nano-banana-2_dark_futuristic_hospitality_interior_with_sleek_geometric_glass_and_steel_archit-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide04\\v3.jpg"
+          },
+          {
+            "generationId": "1f145a7e-ecbe-61b0-92ba-dbd7d666720a",
+            "imageId": "f7017e23-09f0-4e4f-9f3d-97c840d47d73",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a7e-ecbe-61b0-92ba-dbd7d666720a/nano-banana-2_dark_futuristic_hospitality_interior_with_sleek_geometric_glass_and_steel_archit-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide04\\v4.jpg"
+          }
+        ],
+        "startFrames": [
+          {
+            "generationId": "1f145c0c-2acd-64e0-afad-3a80b74399ef",
+            "imageId": "6cbc1db5-80b0-41d3-8b6a-56fb802eda9f",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c0c-2acd-64e0-afad-3a80b74399ef/nano-banana-2_plain_dark_interior_space_empty_clean_surfaces_minimal_ambient_light-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide04\\stripped\\v1.jpg",
+            "videoUploadId": "3260148b-57fc-4c66-8ece-343a741b9a0a"
+          },
+          {
+            "generationId": "1f145c0c-2acd-64e0-afad-3a80b74399ef",
+            "imageId": "3e6d2395-5237-4a43-ac90-b58b6a991e1f",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c0c-2acd-64e0-afad-3a80b74399ef/nano-banana-2_plain_dark_interior_space_empty_clean_surfaces_minimal_ambient_light-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide04\\stripped\\v2.jpg"
+          },
+          {
+            "generationId": "1f145c0c-2acd-64e0-afad-3a80b74399ef",
+            "imageId": "c1370737-ea82-4449-934b-7091735fcc93",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c0c-2acd-64e0-afad-3a80b74399ef/nano-banana-2_plain_dark_interior_space_empty_clean_surfaces_minimal_ambient_light-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide04\\stripped\\v3.jpg"
+          },
+          {
+            "generationId": "1f145c0c-2acd-64e0-afad-3a80b74399ef",
+            "imageId": "972ec35e-b72c-46cd-823c-dff456d54b90",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c0c-2acd-64e0-afad-3a80b74399ef/nano-banana-2_plain_dark_interior_space_empty_clean_surfaces_minimal_ambient_light-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide04\\stripped\\v4.jpg"
+          }
+        ],
+        "kf1Frames": [],
+        "kf2Frames": [],
+        "approvedNewImage": null,
+        "approvedStart": null,
+        "approvedKf1": null,
+        "approvedKf2": null,
+        "videos": [
+          {
+            "label": "A",
+            "model": "kling-3.0",
+            "generationId": "1f145da6-edf9-66d0-b3bd-ae47c2bb512d",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145da6-edf9-66d0-b3bd-ae47c2bb512d/kling-3.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide04\\vA-kling-3.0.mp4"
+          },
+          {
+            "label": "B",
+            "model": "kling-video-o-3",
+            "generationId": "1f145daf-3494-6b50-97c0-e0fe57975b4f",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145daf-3494-6b50-97c0-e0fe57975b4f/kling-video-o-3_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide04\\vB-kling-video-o-3.mp4"
+          },
+          {
+            "label": "C",
+            "model": "seedance-2.0",
+            "generationId": "1f145db6-e46e-63d0-9214-1e7b4db8b369",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145db6-e46e-63d0-9214-1e7b4db8b369/seedance-2.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide04\\vC-seedance-2.0.mp4"
+          },
+          {
+            "label": "D",
+            "model": "seedance-1.0-pro",
+            "generationId": "1f145dbc-d476-6a80-9978-2ae9f40001ed",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145dbc-d476-6a80-9978-2ae9f40001ed/seedance-1.0-pro_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide04\\vD-seedance-1.0-pro.mp4"
+          }
+        ]
+      }
+    },
+    "05": {
+      "name": "Charity",
+      "bgType": "css-dark-generate",
+      "originalBlobUrl": null,
+      "dimensions": {
+        "w": 2752,
+        "h": 1536
+      },
+      "prompts": {
+        "new_image": "dark atmospheric community event space, warm amber and teal accents, modern inclusive venue, celebratory atmosphere, abstract blurred crowd impression, premium modern space, cinematic, no text",
+        "strip": "plain dark space, minimal ambient glow, empty clean background",
+        "kf1": "dark space with warm lights beginning to activate, atmospheric haze forming",
+        "kf2": "warm dynamic community event atmosphere, glowing ambers and teals, people and energy impression"
+      },
+      "state": {
+        "uploadedImageId": "1c6f7672-34aa-44ff-9618-56d5ff60337f",
+        "newImages": [
+          {
+            "generationId": "1f145a80-fd62-6230-9dd0-69c0d8edb307",
+            "imageId": "5acc2b5e-0014-4303-8af2-7df6a3bc2f55",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a80-fd62-6230-9dd0-69c0d8edb307/nano-banana-2_dark_atmospheric_community_event_space_with_warm_amber_and_teal_accents_modern_i-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide05\\v1.jpg"
+          },
+          {
+            "generationId": "1f145a80-fd62-6230-9dd0-69c0d8edb307",
+            "imageId": "d73ce9cd-c269-488c-b05a-2928f594c571",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a80-fd62-6230-9dd0-69c0d8edb307/nano-banana-2_dark_atmospheric_community_event_space_with_warm_amber_and_teal_accents_modern_i-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide05\\v2.jpg"
+          },
+          {
+            "generationId": "1f145a80-fd62-6230-9dd0-69c0d8edb307",
+            "imageId": "a9392ac5-253b-4c77-9aa0-1ffe0c54dc4b",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a80-fd62-6230-9dd0-69c0d8edb307/nano-banana-2_dark_atmospheric_community_event_space_with_warm_amber_and_teal_accents_modern_i-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide05\\v3.jpg"
+          },
+          {
+            "generationId": "1f145a80-fd62-6230-9dd0-69c0d8edb307",
+            "imageId": "6102d71f-3191-43c8-8ecf-bf081efe305e",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a80-fd62-6230-9dd0-69c0d8edb307/nano-banana-2_dark_atmospheric_community_event_space_with_warm_amber_and_teal_accents_modern_i-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide05\\v4.jpg"
+          }
+        ],
+        "startFrames": [
+          {
+            "generationId": "1f145c11-282c-6240-8532-f04e194f08e5",
+            "imageId": "930cd5c9-ea47-4aa6-8c4e-ce272eae940b",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c11-282c-6240-8532-f04e194f08e5/nano-banana-2_plain_dark_space_minimal_ambient_glow_empty_clean_background-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide05\\stripped\\v1.jpg",
+            "videoUploadId": "ed9077d8-757b-4970-ac7c-c2240a4f905d"
+          },
+          {
+            "generationId": "1f145c11-282c-6240-8532-f04e194f08e5",
+            "imageId": "8ec1e0e1-e75c-4383-849d-a4ae11fcf34f",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c11-282c-6240-8532-f04e194f08e5/nano-banana-2_plain_dark_space_minimal_ambient_glow_empty_clean_background-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide05\\stripped\\v2.jpg"
+          },
+          {
+            "generationId": "1f145c11-282c-6240-8532-f04e194f08e5",
+            "imageId": "66c00976-01ba-4dbf-af42-d72822299437",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c11-282c-6240-8532-f04e194f08e5/nano-banana-2_plain_dark_space_minimal_ambient_glow_empty_clean_background-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide05\\stripped\\v3.jpg"
+          },
+          {
+            "generationId": "1f145c11-282c-6240-8532-f04e194f08e5",
+            "imageId": "c1aed530-69a1-4dc4-9371-c325db966797",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c11-282c-6240-8532-f04e194f08e5/nano-banana-2_plain_dark_space_minimal_ambient_glow_empty_clean_background-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide05\\stripped\\v4.jpg"
+          }
+        ],
+        "kf1Frames": [],
+        "kf2Frames": [],
+        "approvedNewImage": null,
+        "approvedStart": null,
+        "approvedKf1": null,
+        "approvedKf2": null,
+        "videos": [
+          {
+            "label": "A",
+            "model": "kling-3.0",
+            "generationId": "1f145dc1-ae2d-6130-a26f-5be093b67116",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145dc1-ae2d-6130-a26f-5be093b67116/kling-3.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide05\\vA-kling-3.0.mp4"
+          },
+          {
+            "label": "B",
+            "model": "kling-video-o-3",
+            "generationId": "1f145dc8-4922-6d10-a443-a73b197ba00b",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145dc8-4922-6d10-a443-a73b197ba00b/kling-video-o-3_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide05\\vB-kling-video-o-3.mp4"
+          },
+          {
+            "label": "C",
+            "model": "seedance-2.0",
+            "generationId": "1f145dce-4d19-6c60-8f4a-a11de3167ffe",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145dce-4d19-6c60-8f4a-a11de3167ffe/seedance-2.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide05\\vC-seedance-2.0.mp4"
+          },
+          {
+            "label": "D",
+            "model": "seedance-1.0-pro",
+            "generationId": "1f145dd4-4b75-62f0-8dc4-6d4111bfacd1",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145dd4-4b75-62f0-8dc4-6d4111bfacd1/seedance-1.0-pro_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide05\\vD-seedance-1.0-pro.mp4"
+          }
+        ]
+      }
+    },
+    "06": {
+      "name": "Market Size",
+      "bgType": "full-bg",
+      "originalBlobUrl": "https://tjtvxp4xul5oynxz.public.blob.vercel-storage.com/slides/media/image9-UVyNStvPAy7TcpuFXyI3Iuo4O1JHtH.png",
+      "dimensions": {
+        "w": 2752,
+        "h": 1536
+      },
+      "prompts": {
+        "strip": "plain dark background, subtle empty grid lines, blank chart axes, no data plotted, clean dark canvas",
+        "kf1": "dark background with faint chart grid structure appearing, subtle data axis lines glowing",
+        "kf2": "detailed market growth chart emerging, coloured growth curves, teal highlights, financial data visualization"
+      },
+      "state": {
+        "uploadedImageId": "aafce791-b665-4b36-85c1-a2546d9d8b20",
+        "startFrames": [
+          {
+            "generationId": "1f145aa3-01fb-6fe0-a48d-b67964876203",
+            "imageId": "25f5c6c7-b5fe-405c-83d7-a204508eb9ef",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aa3-01fb-6fe0-a48d-b67964876203/nano-banana-2_plain_dark_background_subtle_empty_grid_lines_blank_chart_axes_no_data_plotted_c-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide06\\v1.jpg",
+            "videoUploadId": "6d77d9ff-a734-4421-b88e-7d4175c41590"
+          },
+          {
+            "generationId": "1f145aa3-01fb-6fe0-a48d-b67964876203",
+            "imageId": "ede3d75a-bb9b-4626-a413-ea751c7e5066",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aa3-01fb-6fe0-a48d-b67964876203/nano-banana-2_plain_dark_background_subtle_empty_grid_lines_blank_chart_axes_no_data_plotted_c-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide06\\v2.jpg"
+          },
+          {
+            "generationId": "1f145aa3-01fb-6fe0-a48d-b67964876203",
+            "imageId": "aaded02f-f0f4-4ad0-88b1-0750e74d4ac9",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aa3-01fb-6fe0-a48d-b67964876203/nano-banana-2_plain_dark_background_subtle_empty_grid_lines_blank_chart_axes_no_data_plotted_c-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide06\\v3.jpg"
+          },
+          {
+            "generationId": "1f145aa3-01fb-6fe0-a48d-b67964876203",
+            "imageId": "12627edc-557c-49ae-92dd-f88b4f9db3d5",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aa3-01fb-6fe0-a48d-b67964876203/nano-banana-2_plain_dark_background_subtle_empty_grid_lines_blank_chart_axes_no_data_plotted_c-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide06\\v4.jpg"
+          }
+        ],
+        "kf1Frames": [
+          {
+            "generationId": "1f145aa4-f292-6750-940f-827142aa0cb2",
+            "imageId": "16ba1c7f-7a42-448a-bcd4-538bcdac9430",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aa4-f292-6750-940f-827142aa0cb2/nano-banana-2_dark_background_with_faint_chart_grid_structure_appearing_subtle_data_axis_lines-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide06\\kf1\\v1.jpg"
+          },
+          {
+            "generationId": "1f145aa4-f292-6750-940f-827142aa0cb2",
+            "imageId": "85375284-45eb-4e63-80cf-9a3fcaa6684a",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aa4-f292-6750-940f-827142aa0cb2/nano-banana-2_dark_background_with_faint_chart_grid_structure_appearing_subtle_data_axis_lines-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide06\\kf1\\v2.jpg"
+          },
+          {
+            "generationId": "1f145aa4-f292-6750-940f-827142aa0cb2",
+            "imageId": "f6204b24-bea2-47e1-bdb9-4ef5c891a68c",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aa4-f292-6750-940f-827142aa0cb2/nano-banana-2_dark_background_with_faint_chart_grid_structure_appearing_subtle_data_axis_lines-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide06\\kf1\\v3.jpg"
+          },
+          {
+            "generationId": "1f145aa4-f292-6750-940f-827142aa0cb2",
+            "imageId": "10131c93-5235-433a-87be-d803f5fd047e",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aa4-f292-6750-940f-827142aa0cb2/nano-banana-2_dark_background_with_faint_chart_grid_structure_appearing_subtle_data_axis_lines-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide06\\kf1\\v4.jpg"
+          }
+        ],
+        "kf2Frames": [
+          {
+            "generationId": "1f145aa6-d604-6aa0-b395-d3121c3032e1",
+            "imageId": "49c21c8a-9427-46b6-a446-d700e37b088a",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aa6-d604-6aa0-b395-d3121c3032e1/nano-banana-2_detailed_market_growth_chart_emerging_coloured_growth_curves_teal_highlights_fin-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide06\\kf2\\v1.jpg"
+          },
+          {
+            "generationId": "1f145aa6-d604-6aa0-b395-d3121c3032e1",
+            "imageId": "672786e0-4868-4158-b464-a882c889a866",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aa6-d604-6aa0-b395-d3121c3032e1/nano-banana-2_detailed_market_growth_chart_emerging_coloured_growth_curves_teal_highlights_fin-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide06\\kf2\\v2.jpg"
+          },
+          {
+            "generationId": "1f145aa6-d604-6aa0-b395-d3121c3032e1",
+            "imageId": "89281423-4cd9-4252-9a5f-2cd86df35786",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aa6-d604-6aa0-b395-d3121c3032e1/nano-banana-2_detailed_market_growth_chart_emerging_coloured_growth_curves_teal_highlights_fin-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide06\\kf2\\v3.jpg"
+          },
+          {
+            "generationId": "1f145aa6-d604-6aa0-b395-d3121c3032e1",
+            "imageId": "7a700410-957e-41d6-bfc5-3e5017c681ff",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aa6-d604-6aa0-b395-d3121c3032e1/nano-banana-2_detailed_market_growth_chart_emerging_coloured_growth_curves_teal_highlights_fin-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide06\\kf2\\v4.jpg"
+          }
+        ],
+        "approvedStart": 0,
+        "approvedKf1": 0,
+        "approvedKf2": 0,
+        "videos": [
+          {
+            "label": "A",
+            "model": "kling-3.0",
+            "generationId": "1f145dd8-93e3-6380-8490-687fe8f79c2c",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145dd8-93e3-6380-8490-687fe8f79c2c/kling-3.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide06\\vA-kling-3.0.mp4"
+          },
+          {
+            "label": "B",
+            "model": "kling-video-o-3",
+            "generationId": "1f145de0-4ebe-6220-8186-bd3e9ee29f80",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145de0-4ebe-6220-8186-bd3e9ee29f80/kling-video-o-3_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide06\\vB-kling-video-o-3.mp4"
+          },
+          {
+            "label": "C",
+            "model": "seedance-2.0",
+            "generationId": "1f145de6-e047-6c40-966a-b9980381882e",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145de6-e047-6c40-966a-b9980381882e/seedance-2.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide06\\vC-seedance-2.0.mp4"
+          },
+          {
+            "label": "D",
+            "model": "seedance-1.0-pro",
+            "generationId": "1f145def-abd4-6400-9fee-05b4b24ce080",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145def-abd4-6400-9fee-05b4b24ce080/seedance-1.0-pro_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide06\\vD-seedance-1.0-pro.mp4"
+          }
+        ]
+      }
+    },
+    "07": {
+      "name": "Backwards Model",
+      "bgType": "full-bg",
+      "originalBlobUrl": "https://tjtvxp4xul5oynxz.public.blob.vercel-storage.com/slides/media/image10-c44X1avQ5YNltik3UDaeWecAskYqVH.png",
+      "dimensions": {
+        "w": 2752,
+        "h": 1536
+      },
+      "prompts": {
+        "strip": "plain dark background, minimal geometric shapes, clean empty canvas with subtle deep blue gradient",
+        "kf1": "abstract dark background with faint diagram elements appearing, subtle arrows and circles forming",
+        "kf2": "revenue model architecture visualization emerging, service icons and connection paths, teal accents"
+      },
+      "state": {
+        "uploadedImageId": "304aed40-fb91-4a12-ab2d-d7c544e3ad74",
+        "startFrames": [
+          {
+            "generationId": "1f145aa9-a682-6770-8e5d-eceabe332ced",
+            "imageId": "66677875-d322-46a1-a539-15d74a71f56e",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aa9-a682-6770-8e5d-eceabe332ced/nano-banana-2_plain_dark_background_minimal_geometric_shapes_clean_empty_canvas_with_subtle_de-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide07\\v1.jpg",
+            "videoUploadId": "d0477cdd-abab-42d2-85a1-c8a7b7c17674"
+          },
+          {
+            "generationId": "1f145aa9-a682-6770-8e5d-eceabe332ced",
+            "imageId": "3aa4e110-3c0e-43d8-a5fd-ec0f9369cc69",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aa9-a682-6770-8e5d-eceabe332ced/nano-banana-2_plain_dark_background_minimal_geometric_shapes_clean_empty_canvas_with_subtle_de-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide07\\v2.jpg"
+          },
+          {
+            "generationId": "1f145aa9-a682-6770-8e5d-eceabe332ced",
+            "imageId": "33211755-d265-4989-8d3d-38bba7e8cf6a",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aa9-a682-6770-8e5d-eceabe332ced/nano-banana-2_plain_dark_background_minimal_geometric_shapes_clean_empty_canvas_with_subtle_de-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide07\\v3.jpg"
+          },
+          {
+            "generationId": "1f145aa9-a682-6770-8e5d-eceabe332ced",
+            "imageId": "650fc110-38cc-421a-8d26-e5bc0acaac24",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aa9-a682-6770-8e5d-eceabe332ced/nano-banana-2_plain_dark_background_minimal_geometric_shapes_clean_empty_canvas_with_subtle_de-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide07\\v4.jpg"
+          }
+        ],
+        "kf1Frames": [
+          {
+            "generationId": "1f145aab-cdb1-6fb0-ae92-97d7c0e6ca89",
+            "imageId": "7d21acc7-bd8a-4555-b5be-48ff409f86c9",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aab-cdb1-6fb0-ae92-97d7c0e6ca89/nano-banana-2_abstract_dark_background_with_faint_diagram_elements_appearing_subtle_arrows_and-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide07\\kf1\\v1.jpg"
+          },
+          {
+            "generationId": "1f145aab-cdb1-6fb0-ae92-97d7c0e6ca89",
+            "imageId": "f3f309c3-deea-4622-88b2-dbff9eb01b79",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aab-cdb1-6fb0-ae92-97d7c0e6ca89/nano-banana-2_abstract_dark_background_with_faint_diagram_elements_appearing_subtle_arrows_and-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide07\\kf1\\v2.jpg"
+          },
+          {
+            "generationId": "1f145aab-cdb1-6fb0-ae92-97d7c0e6ca89",
+            "imageId": "e143ce4d-24da-461b-abd0-51b51e7bd6ea",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aab-cdb1-6fb0-ae92-97d7c0e6ca89/nano-banana-2_abstract_dark_background_with_faint_diagram_elements_appearing_subtle_arrows_and-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide07\\kf1\\v3.jpg"
+          },
+          {
+            "generationId": "1f145aab-cdb1-6fb0-ae92-97d7c0e6ca89",
+            "imageId": "c2ff05a0-49fb-49ba-afa0-6350a119fb8e",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aab-cdb1-6fb0-ae92-97d7c0e6ca89/nano-banana-2_abstract_dark_background_with_faint_diagram_elements_appearing_subtle_arrows_and-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide07\\kf1\\v4.jpg"
+          }
+        ],
+        "kf2Frames": [
+          {
+            "generationId": "1f145aad-ae20-6b40-9327-6c0c82d01278",
+            "imageId": "dffd58fe-8bdf-4857-af2d-680fa345014f",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aad-ae20-6b40-9327-6c0c82d01278/nano-banana-2_revenue_model_architecture_visualization_emerging_service_icons_and_connection_p-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide07\\kf2\\v1.jpg"
+          },
+          {
+            "generationId": "1f145aad-ae20-6b40-9327-6c0c82d01278",
+            "imageId": "4f74e7ac-fb5f-4467-887c-030ad5b139fa",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aad-ae20-6b40-9327-6c0c82d01278/nano-banana-2_revenue_model_architecture_visualization_emerging_service_icons_and_connection_p-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide07\\kf2\\v2.jpg"
+          },
+          {
+            "generationId": "1f145aad-ae20-6b40-9327-6c0c82d01278",
+            "imageId": "8f7af914-0df3-464a-8f9a-af88184bcf63",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aad-ae20-6b40-9327-6c0c82d01278/nano-banana-2_revenue_model_architecture_visualization_emerging_service_icons_and_connection_p-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide07\\kf2\\v3.jpg"
+          },
+          {
+            "generationId": "1f145aad-ae20-6b40-9327-6c0c82d01278",
+            "imageId": "3d28aeeb-976a-4783-8186-cfe4e948d116",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aad-ae20-6b40-9327-6c0c82d01278/nano-banana-2_revenue_model_architecture_visualization_emerging_service_icons_and_connection_p-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide07\\kf2\\v4.jpg"
+          }
+        ],
+        "approvedStart": 0,
+        "approvedKf1": 0,
+        "approvedKf2": 0,
+        "videos": [
+          {
+            "label": "A",
+            "model": "kling-3.0",
+            "generationId": "1f145df3-f30e-6ab0-b6df-5a99bf069ef8",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145df3-f30e-6ab0-b6df-5a99bf069ef8/kling-3.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide07\\vA-kling-3.0.mp4"
+          },
+          {
+            "label": "B",
+            "model": "kling-video-o-3",
+            "generationId": "1f145dfc-386c-6910-a277-c2af694e9c8e",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145dfc-386c-6910-a277-c2af694e9c8e/kling-video-o-3_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide07\\vB-kling-video-o-3.mp4"
+          },
+          {
+            "label": "C",
+            "model": "seedance-2.0",
+            "generationId": "1f145e02-c333-63e0-8d04-07f5f1b6843a",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145e02-c333-63e0-8d04-07f5f1b6843a/seedance-2.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide07\\vC-seedance-2.0.mp4"
+          },
+          {
+            "label": "D",
+            "model": "seedance-1.0-pro",
+            "generationId": "1f145e09-d092-6890-a491-555c33a2d7b6",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145e09-d092-6890-a491-555c33a2d7b6/seedance-1.0-pro_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide07\\vD-seedance-1.0-pro.mp4"
+          }
+        ]
+      }
+    },
+    "08": {
+      "name": "Benefits",
+      "bgType": "half-bg",
+      "originalBlobUrl": "https://tjtvxp4xul5oynxz.public.blob.vercel-storage.com/slides/media/image11-XWBQX6jDvDkxiaKXwq070d5CVLKaa1.jpg",
+      "dimensions": {
+        "w": 2752,
+        "h": 1536
+      },
+      "prompts": {
+        "strip": "plain dark architectural interior, empty surfaces, minimal depth, no decorations or furnishings",
+        "kf1": "dark architectural space with depth emerging, subtle structural elements appearing",
+        "kf2": "premium dark venue interior with warm atmospheric lighting, architectural richness"
+      },
+      "state": {
+        "uploadedImageId": "b3cffe88-57c7-4047-9bda-bc5694d415a6",
+        "startFrames": [
+          {
+            "generationId": "1f145aaf-de61-6ff0-90e2-9d3da1dd9cd9",
+            "imageId": "8e7c0e01-1a8d-4774-ade3-6346c6aefa49",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aaf-de61-6ff0-90e2-9d3da1dd9cd9/nano-banana-2_plain_dark_architectural_interior_empty_surfaces_minimal_depth_no_decorations_or-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide08\\v1.jpg",
+            "videoUploadId": "a76dfe41-5d75-4975-9b38-dada8d0afb97"
+          },
+          {
+            "generationId": "1f145aaf-de61-6ff0-90e2-9d3da1dd9cd9",
+            "imageId": "fe536495-9e32-4da6-9dda-a592f98b9326",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aaf-de61-6ff0-90e2-9d3da1dd9cd9/nano-banana-2_plain_dark_architectural_interior_empty_surfaces_minimal_depth_no_decorations_or-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide08\\v2.jpg"
+          },
+          {
+            "generationId": "1f145aaf-de61-6ff0-90e2-9d3da1dd9cd9",
+            "imageId": "0ea4aa19-c537-465f-bd12-911a0893cdcf",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aaf-de61-6ff0-90e2-9d3da1dd9cd9/nano-banana-2_plain_dark_architectural_interior_empty_surfaces_minimal_depth_no_decorations_or-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide08\\v3.jpg"
+          },
+          {
+            "generationId": "1f145aaf-de61-6ff0-90e2-9d3da1dd9cd9",
+            "imageId": "6d7a997b-a40a-4333-8a45-8da093026122",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145aaf-de61-6ff0-90e2-9d3da1dd9cd9/nano-banana-2_plain_dark_architectural_interior_empty_surfaces_minimal_depth_no_decorations_or-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide08\\v4.jpg"
+          }
+        ],
+        "kf1Frames": [
+          {
+            "generationId": "1f145ab1-b0d8-60f0-9337-ebd93c70e60c",
+            "imageId": "21a64449-d333-4555-bb44-fd5625b2a594",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ab1-b0d8-60f0-9337-ebd93c70e60c/nano-banana-2_dark_architectural_space_with_depth_emerging_subtle_structural_elements_appearin-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide08\\kf1\\v1.jpg"
+          },
+          {
+            "generationId": "1f145ab1-b0d8-60f0-9337-ebd93c70e60c",
+            "imageId": "94dcde69-cd6b-4ef4-9dd1-8499ede0dec3",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ab1-b0d8-60f0-9337-ebd93c70e60c/nano-banana-2_dark_architectural_space_with_depth_emerging_subtle_structural_elements_appearin-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide08\\kf1\\v2.jpg"
+          },
+          {
+            "generationId": "1f145ab1-b0d8-60f0-9337-ebd93c70e60c",
+            "imageId": "d6c8d305-4cfc-4fe9-989f-9f8d2fbe865b",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ab1-b0d8-60f0-9337-ebd93c70e60c/nano-banana-2_dark_architectural_space_with_depth_emerging_subtle_structural_elements_appearin-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide08\\kf1\\v3.jpg"
+          },
+          {
+            "generationId": "1f145ab1-b0d8-60f0-9337-ebd93c70e60c",
+            "imageId": "35a4e58d-ad74-4c8c-988c-591f5ce0fc1d",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ab1-b0d8-60f0-9337-ebd93c70e60c/nano-banana-2_dark_architectural_space_with_depth_emerging_subtle_structural_elements_appearin-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide08\\kf1\\v4.jpg"
+          }
+        ],
+        "kf2Frames": [
+          {
+            "generationId": "1f145ab4-0249-6720-ba0e-78f7f05fbfc7",
+            "imageId": "0c391040-5a53-4ef7-acf4-604b852c40cc",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ab4-0249-6720-ba0e-78f7f05fbfc7/nano-banana-2_premium_dark_venue_interior_with_warm_atmospheric_lighting_architectural_richnes-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide08\\kf2\\v1.jpg"
+          },
+          {
+            "generationId": "1f145ab4-0249-6720-ba0e-78f7f05fbfc7",
+            "imageId": "c3ba4bd0-189c-4a41-88b3-f8f079dc62f7",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ab4-0249-6720-ba0e-78f7f05fbfc7/nano-banana-2_premium_dark_venue_interior_with_warm_atmospheric_lighting_architectural_richnes-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide08\\kf2\\v2.jpg"
+          },
+          {
+            "generationId": "1f145ab4-0249-6720-ba0e-78f7f05fbfc7",
+            "imageId": "b95cd753-0790-44da-968b-c228eb18a046",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ab4-0249-6720-ba0e-78f7f05fbfc7/nano-banana-2_premium_dark_venue_interior_with_warm_atmospheric_lighting_architectural_richnes-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide08\\kf2\\v3.jpg"
+          },
+          {
+            "generationId": "1f145ab4-0249-6720-ba0e-78f7f05fbfc7",
+            "imageId": "2db877b6-8e53-4734-9e75-eaed597302c4",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145ab4-0249-6720-ba0e-78f7f05fbfc7/nano-banana-2_premium_dark_venue_interior_with_warm_atmospheric_lighting_architectural_richnes-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\keyframes\\slide08\\kf2\\v4.jpg"
+          }
+        ],
+        "approvedStart": 0,
+        "approvedKf1": 0,
+        "approvedKf2": 0,
+        "videos": [
+          {
+            "label": "A",
+            "model": "kling-3.0",
+            "generationId": "1f145e0e-9df4-6370-85cc-3cafda88c504",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145e0e-9df4-6370-85cc-3cafda88c504/kling-3.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide08\\vA-kling-3.0.mp4"
+          },
+          {
+            "label": "B",
+            "model": "kling-video-o-3",
+            "generationId": "1f145e16-5691-6660-90f8-a1fa494b6db6",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145e16-5691-6660-90f8-a1fa494b6db6/kling-video-o-3_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide08\\vB-kling-video-o-3.mp4"
+          },
+          {
+            "label": "C",
+            "model": "seedance-2.0",
+            "generationId": "1f145e1c-e98b-6af0-8ce8-d72a412495e0",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145e1c-e98b-6af0-8ce8-d72a412495e0/seedance-2.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide08\\vC-seedance-2.0.mp4"
+          },
+          {
+            "label": "D",
+            "model": "seedance-1.0-pro",
+            "generationId": "1f145e24-8cb1-6430-ba52-0d3fd8ddf5f9",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145e24-8cb1-6430-ba52-0d3fd8ddf5f9/seedance-1.0-pro_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide08\\vD-seedance-1.0-pro.mp4"
+          }
+        ]
+      }
+    },
+    "09": {
+      "name": "Revenue 1",
+      "bgType": "css-dark-generate",
+      "originalBlobUrl": null,
+      "dimensions": {
+        "w": 2752,
+        "h": 1536
+      },
+      "prompts": {
+        "new_image": "dark background with abstract glowing logo placeholder grid, multiple illuminated rectangles floating in dark space, corporate sponsorship aesthetic, subtle teal glow on each frame, professional, clean, no actual logos or text",
+        "strip": "plain dark background, empty floating dark rectangles in space, no glow",
+        "kf1": "dark background with rectangles beginning to glow, subtle emanating light",
+        "kf2": "dark background with fully illuminated sponsor frame grid, teal glow halos, premium feel"
+      },
+      "state": {
+        "uploadedImageId": "15ecad82-a2be-405d-a0f1-63decddccd93",
+        "newImages": [
+          {
+            "generationId": "1f145a82-cd1b-6840-9224-feb2f728aa67",
+            "imageId": "91f6f076-4e3b-4a2d-a44f-1383e0a9e051",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a82-cd1b-6840-9224-feb2f728aa67/nano-banana-2_dark_background_with_an_abstract_glowing_logo_placeholder_grid_comprising_multip-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide09\\v1.jpg"
+          },
+          {
+            "generationId": "1f145a82-cd1b-6840-9224-feb2f728aa67",
+            "imageId": "d57056ac-7c0d-432f-8cc5-cc07dd8e07f9",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a82-cd1b-6840-9224-feb2f728aa67/nano-banana-2_dark_background_with_an_abstract_glowing_logo_placeholder_grid_comprising_multip-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide09\\v2.jpg"
+          },
+          {
+            "generationId": "1f145a82-cd1b-6840-9224-feb2f728aa67",
+            "imageId": "1405d848-b186-481c-aabf-433175f64346",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a82-cd1b-6840-9224-feb2f728aa67/nano-banana-2_dark_background_with_an_abstract_glowing_logo_placeholder_grid_comprising_multip-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide09\\v3.jpg"
+          },
+          {
+            "generationId": "1f145a82-cd1b-6840-9224-feb2f728aa67",
+            "imageId": "cc5277af-37d7-41f2-8f78-14aae2e07b5a",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145a82-cd1b-6840-9224-feb2f728aa67/nano-banana-2_dark_background_with_an_abstract_glowing_logo_placeholder_grid_comprising_multip-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide09\\v4.jpg"
+          }
+        ],
+        "startFrames": [
+          {
+            "generationId": "1f145c13-6978-63a0-8224-99b92ba189f3",
+            "imageId": "c9986d6a-0b66-4c09-94bd-79a1829405aa",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c13-6978-63a0-8224-99b92ba189f3/nano-banana-2_plain_dark_background_empty_floating_dark_rectangles_in_space_no_glow-0.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide09\\stripped\\v1.jpg",
+            "videoUploadId": "820da96a-39bf-4be1-af88-4138e19b6e16"
+          },
+          {
+            "generationId": "1f145c13-6978-63a0-8224-99b92ba189f3",
+            "imageId": "337ce44d-e5fb-4973-ae7e-a006418dba83",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c13-6978-63a0-8224-99b92ba189f3/nano-banana-2_plain_dark_background_empty_floating_dark_rectangles_in_space_no_glow-3.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide09\\stripped\\v2.jpg"
+          },
+          {
+            "generationId": "1f145c13-6978-63a0-8224-99b92ba189f3",
+            "imageId": "7d71f092-152c-4bf2-92fc-3688c54285c0",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c13-6978-63a0-8224-99b92ba189f3/nano-banana-2_plain_dark_background_empty_floating_dark_rectangles_in_space_no_glow-1.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide09\\stripped\\v3.jpg"
+          },
+          {
+            "generationId": "1f145c13-6978-63a0-8224-99b92ba189f3",
+            "imageId": "842f362a-0c19-4798-a81a-dac72cfd90e0",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145c13-6978-63a0-8224-99b92ba189f3/nano-banana-2_plain_dark_background_empty_floating_dark_rectangles_in_space_no_glow-2.jpg",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\startframes\\slide09\\stripped\\v4.jpg"
+          }
+        ],
+        "kf1Frames": [],
+        "kf2Frames": [],
+        "approvedNewImage": null,
+        "approvedStart": null,
+        "approvedKf1": null,
+        "approvedKf2": null,
+        "videos": [
+          {
+            "label": "A",
+            "model": "kling-3.0",
+            "generationId": "1f145e28-d3ce-6620-8b72-f7c423e4293d",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145e28-d3ce-6620-8b72-f7c423e4293d/kling-3.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide09\\vA-kling-3.0.mp4"
+          },
+          {
+            "label": "B",
+            "model": "kling-video-o-3",
+            "generationId": "1f145e2f-555e-6a90-8d38-fa66c5145d57",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145e2f-555e-6a90-8d38-fa66c5145d57/kling-video-o-3_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide09\\vB-kling-video-o-3.mp4"
+          },
+          {
+            "label": "C",
+            "model": "seedance-2.0",
+            "generationId": "1f145e34-b4e6-6e40-a754-15c7cae7b3ea",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145e34-b4e6-6e40-a754-15c7cae7b3ea/seedance-2.0_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide09\\vC-seedance-2.0.mp4"
+          },
+          {
+            "label": "D",
+            "model": "seedance-1.0-pro",
+            "generationId": "1f145e3a-1015-6d70-8e0b-72b44f40f2f2",
+            "url": "https://cdn.leonardo.ai/users/fe1a3854-50e6-42ba-a0a4-f82d34e0c710/generations/1f145e3a-1015-6d70-8e0b-72b44f40f2f2/seedance-1.0-pro_smooth_cinematic_atmospheric_reveal_subtle_motion_ambient_glow_flowing_light_no_-0.mp4",
+            "localPath": "X:\\letiverse\\repositries\\investment\\backgrounds\\videos\\slide09\\vD-seedance-1.0-pro.mp4"
+          }
+        ]
+      }
+    }
+  }
+}

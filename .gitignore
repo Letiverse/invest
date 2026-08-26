@@ -1,0 +1,65 @@
+node_modules/
+.next/
+.turbo/
+*.log
+.env
+.env.local
+.env*.local
+
+# Playwright MCP artifacts
+.playwright-mcp/
+
+# Root-level QA/audit/review screenshots — never commit these
+/*.jpeg
+/*.jpg
+/*.png
+qa-*.jpeg
+qa-*.jpg
+qa-*.png
+review-*.jpeg
+opus-*.jpeg
+pillar1-*.png
+check-*.jpeg
+portrait-*.png
+slide1-*.png
+slide17-*.jpeg
+slide18-*.png
+
+# PPTX source + extracted XML (dev artifacts, not needed at runtime)
+letiverse-deck.pptx
+letiverse-deck-extracted/
+letiverse-deck-organised/
+
+# Research notes — local only, not for version control
+research/
+
+# Old raw PPTX image dumps — all assets served from Vercel Blob CDN
+public/slides/media/
+public/slides/pptx/
+
+# E2E verification screenshots
+e2e/verify-screenshots/
+e2e-results.txt
+playwright-report/
+test-results/
+
+# Background generation artefacts
+backgrounds/leonardo-slide18/*.jpg
+
+# Upload/patch helper scripts
+upload_to_blob.py
+patch_tsx.py
+pptx_to_react.py
+
+# OS
+.DS_Store
+Thumbs.db
+.vercel
+
+# TS incremental build cache (auto-regenerated; merge-conflict prone)
+tsconfig.tsbuildinfo
+
+validation/screenshots/
+
+# Temporary local QA scripts
+qa-*.js
