@@ -9,7 +9,7 @@ export const DEAL = {
   totalShares: 19_900,      // this raise: totalRaise / sharePrice
   sharesRemaining: 7_039,   // ← update this as the round fills
   sharesRemainingAsOf: '27 August 2026',
-  closeDate: new Date('2026-06-30T23:59:00Z'),
+  closeDate: new Date('2026-10-18T23:59:00Z'),
 } as const
 
 export const raisedSoFar = (DEAL.totalShares - DEAL.sharesRemaining) * DEAL.sharePrice

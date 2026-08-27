@@ -24,7 +24,7 @@ The figures the live deck shows for the **open round only** (£995,000 / 19,900 
 | Amount remaining | **£351,950** |
 | Round progress | **64.63%** |
 | Figures dated | **27 August 2026** |
-| Round close | **30 June 2026, 23:59 UTC** |
+| Round close | **18 October 2026, 23:59 UTC** |
 
 Source: `lib/dealTerms.ts`.
 
@@ -198,7 +198,7 @@ export const DEAL = {
   totalShares: 19_900,
   sharesRemaining: 7_039,
   sharesRemainingAsOf: '27 August 2026',
-  closeDate: new Date('2026-06-30T23:59:00Z'),
+  closeDate: new Date('2026-10-18T23:59:00Z'),
 } as const
 ```
 

@@ -267,7 +267,7 @@ export function Slide18_CTA() {
               animate={{ opacity: [0.7, 1, 0.7] }}
               transition={{ duration: 2.2, repeat: Infinity, ease: 'easeInOut' }}
             >
-              LIVE ROUND · CLOSING {CLOSE_DATE.toLocaleDateString('en-GB', { day: '2-digit', month: 'long', year: 'numeric' }).toUpperCase()}
+              LIVE ROUND · CLOSING {CLOSE_DATE.toLocaleDateString('en-GB', { day: '2-digit', month: 'long', year: 'numeric', timeZone: 'UTC' }).toUpperCase()}
             </motion.p>
           )}
 

@@ -31,7 +31,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Letiverse AI — Investment Opportunity",
-  description: "Letiverse AI is raising £995k to build the spatial web. £50/share · £1,000 minimum · Closes 30 June 2026.",
+  description: "Letiverse AI is raising £995k to build the spatial web. £50/share · £1,000 minimum · Closes 18 October 2026.",
   keywords: ["Letiverse", "investment", "spatial web", "AI", "3D technology", "seed round", "startup", "equity"],
   authors: [{ name: "Letiverse", url: "https://letiverse.co.uk" }],
   creator: "Letiverse",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     url: SITE_URL,
     siteName: "Letiverse AI",
     title: "Letiverse AI — Investment Opportunity",
-    description: "Letiverse AI is raising £995k to build the spatial web. £50/share · £1,000 minimum · Closes 30 June 2026.",
+    description: "Letiverse AI is raising £995k to build the spatial web. £50/share · £1,000 minimum · Closes 18 October 2026.",
     images: [
       {
         url: OG_IMAGE_LANDSCAPE,
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     site: "@letiverse",
     creator: "@letiverse",
     title: "Letiverse AI — Investment Opportunity",
-    description: "Letiverse AI is raising £995k to build the spatial web. £50/share · £1,000 minimum · Closes 30 June 2026.",
+    description: "Letiverse AI is raising £995k to build the spatial web. £50/share · £1,000 minimum · Closes 18 October 2026.",
     images: [OG_IMAGE_LANDSCAPE],
   },
 };
