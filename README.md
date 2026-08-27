@@ -18,11 +18,11 @@ The figures the live deck shows for the **open round only** (£995,000 / 19,900 
 | Share price | **£50** |
 | Minimum investment | **£1,000** |
 | Total round shares | **19,900** |
-| Shares remaining | **7,039** |
-| Shares sold this round | **12,861** |
-| Raised so far | **£643,050** |
-| Amount remaining | **£351,950** |
-| Round progress | **64.63%** |
+| Shares remaining | **6,939** |
+| Shares sold this round | **12,961** |
+| Raised so far | **£648,050** |
+| Amount remaining | **£346,950** |
+| Round progress | **65.13%** |
 | Figures dated | **27 August 2026** |
 | Round close | **18 October 2026, 23:59 UTC** |
 
@@ -196,7 +196,7 @@ export const DEAL = {
   minInvestment: 1_000,
   totalRaise: 995_000,
   totalShares: 19_900,
-  sharesRemaining: 7_039,
+  sharesRemaining: 6_939,
   sharesRemainingAsOf: '27 August 2026',
   closeDate: new Date('2026-10-18T23:59:00Z'),
 } as const

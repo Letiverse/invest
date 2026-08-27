@@ -224,7 +224,7 @@ export function Slide18_CTA() {
             left: '50%',
             top: '53%',
             transform: 'translate(-50%, -50%)',
-            width: 760,
+            width: 900,
           }}
         >
         <motion.div
@@ -240,7 +240,7 @@ export function Slide18_CTA() {
             backdropFilter: 'blur(14px)',
             WebkitBackdropFilter: 'blur(14px)',
             boxShadow: '0 14px 54px rgba(0,0,0,0.6)',
-            padding: '34px 44px 32px',
+            padding: '40px 52px 38px',
             textAlign: 'center',
             overflow: 'hidden',
           }}
@@ -393,7 +393,7 @@ export function Slide18_CTA() {
             )}
           </div>
 
-          <div style={{ display: 'flex', justifyContent: 'center', gap: 18, flexWrap: 'wrap', fontSize: 14, color: 'rgba(255,255,255,0.72)', letterSpacing: '0.8px' }}>
+          <div style={{ display: 'flex', justifyContent: 'center', gap: 26, flexWrap: 'wrap', fontSize: 22, fontWeight: 700, color: 'rgba(255,255,255,0.86)', letterSpacing: '0.4px' }}>
             <span>{CONTACT_EMAIL}</span>
             <span style={{ color: '#34E9E2' }}>+44 7707 179670</span>
           </div>
