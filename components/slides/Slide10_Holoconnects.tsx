@@ -3,6 +3,7 @@ import dynamic from 'next/dynamic'
 import { motion } from 'motion/react'
 import { NumberTicker } from '@/components/ui/number-ticker'
 import { SlideFrame } from '@/components/deck/SlideFrame'
+import { StaggeredImg } from '@/components/ui/staggered-img'
 import { DECK_EFFECTS } from '@/lib/effectFlags'
 import { blobUrl } from '@/lib/blob-urls'
 
@@ -45,7 +46,7 @@ export function Slide10_Holoconnects() {
         whileHover={{ scale: 1.04, rotateY: -4, rotateX: 2, filter: 'drop-shadow(0 0 28px rgba(52,233,226,0.85))' }}
         style={{ position: "absolute", left: 1342.4, top: 224.5, width: 538.0, height: 801.9, filter: 'drop-shadow(0 0 16px rgba(52,233,226,0.5))', perspective: 800, cursor: 'pointer', transformStyle: 'preserve-3d' }}
       >
-        <img src={blobUrl('/slides/media/image18.jpg')} alt="" style={{ width: '100%', height: '100%', objectFit: "cover" }} />
+        <StaggeredImg src={blobUrl('/slides/media/image18.jpg')} delay={0.5} style={{ width: '100%', height: '100%', objectFit: "cover" }} />
       </motion.div>
       {/* Picture 17 — hologram unit left — hover to tilt/glow */}
       <motion.div
@@ -53,7 +54,7 @@ export function Slide10_Holoconnects() {
         whileHover={{ scale: 1.05, rotateY: 4, rotateX: -2, filter: 'drop-shadow(0 0 24px rgba(52,233,226,0.75))' }}
         style={{ position: "absolute", left: 39.7, top: 303.8, width: 565.7, height: 339.6, cursor: 'pointer', transformStyle: 'preserve-3d' }}
       >
-        <img src={blobUrl('/slides/media/image19.png')} alt="" style={{ width: '100%', height: '100%', objectFit: "cover" }} />
+        <StaggeredImg src={blobUrl('/slides/media/image19.png')} delay={0.4} style={{ width: '100%', height: '100%', objectFit: "cover" }} />
       </motion.div>
       {/* Picture 19 — bottom centre — hover to scale/glow */}
       <motion.div
@@ -61,7 +62,7 @@ export function Slide10_Holoconnects() {
         whileHover={{ scale: 1.04, rotateX: -2, filter: 'drop-shadow(0 0 24px rgba(52,233,226,0.75))' }}
         style={{ position: "absolute", left: 605.4, top: 660.6, width: 714.6, height: 378.7, cursor: 'pointer', transformStyle: 'preserve-3d' }}
       >
-        <img src={blobUrl('/slides/media/image20.jpg')} alt="" style={{ width: '100%', height: '100%', objectFit: "cover" }} />
+        <StaggeredImg src={blobUrl('/slides/media/image20.jpg')} delay={0.8} style={{ width: '100%', height: '100%', objectFit: "cover" }} />
       </motion.div>
       {/* TextBox 21 — centre description with glass card */}
       <motion.div

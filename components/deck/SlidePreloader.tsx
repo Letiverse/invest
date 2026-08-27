@@ -66,6 +66,33 @@ const SLIDE_ASSETS: Record<number, string[]> = {
   21: [blobUrl('/slides/slide-17/risk-moats.png')],
 }
 
+/** Mux playback IDs for slides with a BgVideo background, indexed by slide number.
+ *  Prefetching the HLS manifest ahead of arrival warms the connection/cache so
+ *  playback can start immediately instead of only beginning the fetch on mount. */
+const VIDEO_ASSETS: Record<number, string> = {
+  1:  '01tA3S3V2ZHxqIDKaCs5IwgGuJ4oGa5I5b1iXG9VGUg8',
+  2:  'Ua4LpwEvSQqE01qcphrIEp00Mn7nihKopkKWjWAFOZt300',
+  3:  'Kw5yIeY8acLOmVtP00fNb7dPNHe01h02YE004PnyI8OT2fo',
+  4:  'GC00xY5Mt01RKRuM0002rGiMkKtdMXOCn7tYXYnUo5PZaQc',
+  7:  'PZXipz3P02ROgd62EQx02jjBConMMfhS7Pz593W9dNPvA',
+  8:  'dhPDEe6tx7kr67AX7sH01js01Jmkkfabkb4Q6rkEBnO7Q',
+  9:  '02TVW6e00k2c00qufHOSvUb01DkSQWfsuJMZB2hJ01zVwxZA',
+  18: '7j7Ed74H88DAQ702XeJNUk101gV7lZGbokShUsmV02hqqo',
+}
+
+const prefetchedVideos = new Set<number>()
+
+function prefetchVideo(slide: number) {
+  const playbackId = VIDEO_ASSETS[slide]
+  if (!playbackId || prefetchedVideos.has(slide)) return
+  prefetchedVideos.add(slide)
+  // Warms DNS/TLS + primes the HLS manifest in HTTP cache; the actual player
+  // still does its own segment fetching once mounted.
+  fetch(`https://stream.mux.com/${playbackId}.m3u8`, { mode: 'cors', credentials: 'omit' }).catch(() => {
+    /* best-effort — playback still works if this fails */
+  })
+}
+
 function preloadImages(urls: string[]) {
   urls.forEach(url => {
     const img = new window.Image()
@@ -129,6 +156,9 @@ export function SlidePreloader() {
       const assets = SLIDE_ASSETS[slide]
       if (assets) preloadImages(assets)
     })
+    // Only prefetch the very next slide's video — manifests are heavier than
+    // images and we don't want to burn bandwidth on slides the viewer may skip.
+    prefetchVideo(currentSlide + 1)
   }, [currentSlide])
 
   return null

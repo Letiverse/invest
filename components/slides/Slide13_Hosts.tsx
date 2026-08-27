@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'motion/react'
 import { NumberTicker } from '@/components/ui/number-ticker'
 import { SlideFrame } from '@/components/deck/SlideFrame'
+import { StaggeredImg } from '@/components/ui/staggered-img'
 import { blobUrl } from '@/lib/blob-urls'
 
 /**
@@ -72,7 +73,7 @@ function HostCard({ host, delay }: { host: Host; delay: number }) {
       <div style={{ position: 'absolute', inset: 0, backgroundColor: '#141428', border: hovered ? '1px solid rgba(52,233,226,0.95)' : '1px solid rgba(52,233,226,0.6)', boxShadow: hovered ? '0 0 30px rgba(52,233,226,0.65), 0 8px 24px rgba(0,0,0,0.5)' : '0 0 14px rgba(52,233,226,0.30)', transition: 'all 220ms ease-out' }} />
       <div style={{ position: 'absolute', left: 10, top: 10, right: 10, height: 132, backgroundColor: 'rgba(52,233,226,0.120)', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden' }}>
         {host.imgSrc ? (
-          <img src={host.imgSrc} alt={host.name} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+          <StaggeredImg src={host.imgSrc} delay={delay} alt={host.name} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
         ) : (
           <span style={{ fontSize: 40, fontWeight: 700, color: 'rgba(52,233,226,0.55)', letterSpacing: '1px' }}>{initials(host.name)}</span>
         )}

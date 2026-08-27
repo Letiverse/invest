@@ -1,6 +1,7 @@
 'use client'
 import { motion } from 'motion/react'
 import { SlideFrame } from '@/components/deck/SlideFrame'
+import { StaggeredImg } from '@/components/ui/staggered-img'
 import { blobUrl } from '@/lib/blob-urls'
 
 const ECOMM_IMAGES = [
@@ -60,7 +61,7 @@ export function Slide12_Ecommerce() {
               cursor: 'pointer',
             }}
           >
-            <img src={blobUrl(src)} alt={label} style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'filter 0.3s ease', filter: 'brightness(0.95) saturate(1.1)' }} />
+            <StaggeredImg src={blobUrl(src)} delay={0.5 + index * 0.12} alt={label} style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'filter 0.3s ease', filter: 'brightness(0.95) saturate(1.1)' }} />
             {/* Label overlay on hover */}
             <div style={{
               position: 'absolute', bottom: 0, left: 0, right: 0,
