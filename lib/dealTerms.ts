@@ -8,7 +8,7 @@ export const DEAL = {
   totalRaise: 995_000,      // £ total round size (this raise)
   totalShares: 19_900,      // this raise: totalRaise / sharePrice
   sharesRemaining: 7_039,   // ← update this as the round fills
-  sharesRemainingAsOf: '4 June 2026',
+  sharesRemainingAsOf: '27 August 2026',
   closeDate: new Date('2026-06-30T23:59:00Z'),
 } as const
 
