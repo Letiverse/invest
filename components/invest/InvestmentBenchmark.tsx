@@ -1,14 +1,15 @@
 import {
   ArrowDown,
+  ArrowRight,
   ArrowUpRight,
   Award,
   Building2,
-  CircleDot,
-  Clock3,
+  CalendarDays,
   Eye,
   Handshake,
   Megaphone,
   Network,
+  Repeat2,
   Share2,
   ShoppingBag,
   Users,
@@ -17,23 +18,33 @@ import {
   benchmarkAssets,
   benchmarkHosts,
   benchmarkMetrics,
-  engagementMetrics,
 } from '@/lib/investmentBenchmark'
 import styles from './InvestmentBenchmark.module.css'
 
 const networkNodes = [
-  { label: 'VENUES', icon: Building2, className: styles.nodeVenue },
+  { label: 'HOSTS', icon: Building2, className: styles.nodeVenue },
   { label: 'AUDIENCE', icon: Users, className: styles.nodeAudience },
   { label: 'SPONSORS', icon: Megaphone, className: styles.nodeSponsors },
   { label: 'TRANSACTIONS', icon: ShoppingBag, className: styles.nodeTransactions },
 ]
 
-const modelSteps = [
-  { number: '01', title: 'Letiverse', copy: 'Builds and operates the Tour', icon: Network },
-  { number: '02', title: 'Host', copy: 'Signs a long-term agreement', icon: Handshake },
-  { number: '03', title: 'Distribution', copy: 'Shares through official channels', icon: Share2 },
-  { number: '04', title: 'Audience', copy: 'Enters and explores', icon: Users },
-  { number: '05', title: 'Network value', copy: 'Sponsors and transactions', icon: CircleDot },
+const letiverseCommitments = [
+  { title: 'Build the Tour', copy: 'Create the interactive venue experience', icon: Network },
+  { title: 'Host and operate it', copy: 'Run the platform and visitor experience', icon: Building2 },
+  { title: 'Maintain and commercialise', copy: 'Improve the Tour and develop revenue routes', icon: ShoppingBag },
+]
+
+const hostCommitments = [
+  { title: 'Official social post', copy: 'Share the Tour through the Host’s own channels', icon: Share2 },
+  { title: 'Every week', copy: 'Contracted recurring distribution—not a launch campaign', icon: Repeat2 },
+  { title: 'For the full term', copy: 'A multi-year partnership with compounding reach', icon: CalendarDays },
+]
+
+const networkEffect = [
+  { value: '18', label: 'contracted Hosts' },
+  { value: 'Weekly', label: 'official distribution' },
+  { value: 'Recurring', label: 'audience reach' },
+  { value: 'Growing', label: 'commercial inventory' },
 ]
 
 function BrandMark() {
@@ -52,7 +63,7 @@ export function InvestmentBenchmark() {
         <BrandMark />
         <nav className={styles.nav} aria-label="Investment story">
           <a href="#network">Network</a>
-          <a href="#model">Model</a>
+          <a href="#model">Partnership</a>
           <a href="#proof">Proof</a>
         </nav>
         <a className={styles.headerAction} href="#next">
@@ -71,12 +82,13 @@ export function InvestmentBenchmark() {
             <span>real-world venues.</span>
           </h1>
           <p className={styles.heroLead}>
-            We build and operate award-winning interactive Tours. Every Host adds a venue,
-            an audience and new ways to earn.
+            Letiverse turns venues into interactive digital experiences. Every Host signs a
+            multi-year weekly distribution partnership—creating one growing network of Tours,
+            audiences and commercial opportunities.
           </p>
           <div className={styles.heroActions}>
             <a className={styles.primaryButton} href="#model">
-              See how the network works <ArrowDown aria-hidden="true" size={18} />
+              See the Host partnership <ArrowDown aria-hidden="true" size={18} />
             </a>
             <a
               className={styles.secondaryButton}
@@ -89,13 +101,17 @@ export function InvestmentBenchmark() {
           </div>
         </div>
 
-        <div className={styles.networkVisual} role="img" aria-label="Letiverse connects venues, audiences, sponsors and transactions">
+        <div className={styles.networkVisual} role="img" aria-label="Letiverse connects contracted Hosts, audiences, sponsors and transactions">
           <div className={styles.networkLines} aria-hidden="true">
             <svg viewBox="0 0 680 620" preserveAspectRatio="none">
-              <path d="M95 125 C230 150 260 230 340 310" />
-              <path d="M585 112 C460 150 420 220 340 310" />
-              <path d="M86 510 C220 475 265 400 340 310" />
-              <path d="M600 500 C470 470 420 390 340 310" />
+              <path data-motion="signal-path" className={styles.signalPath} d="M95 125 C230 150 260 230 340 310" />
+              <path className={styles.signalPath} d="M585 112 C460 150 420 220 340 310" />
+              <path className={styles.signalPath} d="M86 510 C220 475 265 400 340 310" />
+              <path className={styles.signalPath} d="M600 500 C470 470 420 390 340 310" />
+              <circle data-motion="signal-dot" className={styles.signalDot} r="4"><animateMotion dur="4.8s" begin="-0.6s" repeatCount="indefinite" path="M95 125 C230 150 260 230 340 310" /></circle>
+              <circle data-motion="signal-dot" className={styles.signalDot} r="4"><animateMotion dur="5.3s" begin="-2.1s" repeatCount="indefinite" path="M585 112 C460 150 420 220 340 310" /></circle>
+              <circle data-motion="signal-dot" className={styles.signalDot} r="4"><animateMotion dur="5.1s" begin="-3.2s" repeatCount="indefinite" path="M86 510 C220 475 265 400 340 310" /></circle>
+              <circle data-motion="signal-dot" className={styles.signalDot} r="4"><animateMotion dur="4.6s" begin="-1.4s" repeatCount="indefinite" path="M600 500 C470 470 420 390 340 310" /></circle>
             </svg>
           </div>
 
@@ -108,8 +124,8 @@ export function InvestmentBenchmark() {
               fetchPriority="high"
             />
             <div className={styles.tourOverlay}>
-              <span>THE SHIP INN</span>
-              <strong>AWARD-WINNING FIRST TOUR</strong>
+              <span>LETIVERSE TOUR</span>
+              <strong>THE PRODUCT INSIDE THE NETWORK</strong>
             </div>
           </div>
 
@@ -142,48 +158,58 @@ export function InvestmentBenchmark() {
 
       <section id="model" className={`${styles.section} ${styles.modelSection}`}>
         <div className={styles.sectionIntro}>
-          <p className={styles.eyebrow}>THE MODEL</p>
-          <h2>We build it. <span>Hosts grow it.</span></h2>
+          <p className={styles.eyebrow}>THE HOST PARTNERSHIP</p>
+          <h2>One contract. <span>Weekly distribution.</span></h2>
           <p>
-            Letiverse removes the cost, time and technical burden. Hosts commit long term
-            and repeatedly bring their audiences.
+            The Tour is what visitors see. The agreement behind it is what turns individual
+            venues into one network.
           </p>
         </div>
 
-        <ol className={styles.modelFlow} aria-label="How the Letiverse network works">
-          {modelSteps.map(({ number, title, copy, icon: Icon }, index) => (
-            <li key={title} className={styles.modelStep}>
-              <div className={styles.stepTopline}>
-                <span>{number}</span>
+        <div className={styles.partnershipDiagram} aria-label="The Letiverse and Host partnership">
+          <article className={styles.commitmentPanel}>
+            <span className={styles.cardLabel}>LETIVERSE COMMITS</span>
+            {letiverseCommitments.map(({ title, copy, icon: Icon }) => (
+              <div className={styles.commitmentItem} key={title}>
                 <Icon aria-hidden="true" size={20} />
+                <div><strong>{title}</strong><span>{copy}</span></div>
               </div>
-              <strong>{title}</strong>
-              <p>{copy}</p>
-              {index < modelSteps.length - 1 && <ArrowUpRight className={styles.stepArrow} aria-hidden="true" size={20} />}
-            </li>
-          ))}
-        </ol>
-
-        <div className={styles.exchangeGrid}>
-          <article className={styles.exchangeCard}>
-            <span className={styles.cardLabel}>HOSTS RECEIVE</span>
-            <div className={styles.exchangeItem}><strong>£0</strong><span>build cost</span></div>
-            <div className={styles.exchangeItem}><strong>100%</strong><span>managed delivery</span></div>
-            <div className={styles.exchangeItem}><strong>Shared</strong><span>commercial value</span></div>
+            ))}
           </article>
 
-          <div className={styles.exchangeCore} aria-hidden="true">
-            <span>VALUE</span>
-            <Share2 size={24} />
-            <span>EXCHANGE</span>
+          <div className={styles.contractHub}>
+            <div data-motion="contract-pulse" className={styles.contractPulse} aria-hidden="true" />
+            <Handshake aria-hidden="true" size={30} />
+            <span>MULTI-YEAR AGREEMENT</span>
+            <strong>One official social post</strong>
+            <b>every week</b>
+            <small>for the full contract term</small>
           </div>
 
-          <article className={styles.exchangeCard}>
-            <span className={styles.cardLabel}>LETIVERSE RECEIVES</span>
-            <div className={styles.exchangeItem}><strong>Long-term</strong><span>network supply</span></div>
-            <div className={styles.exchangeItem}><strong>Recurring</strong><span>Host distribution</span></div>
-            <div className={styles.exchangeItem}><strong>Growing</strong><span>commercial inventory</span></div>
+          <article className={`${styles.commitmentPanel} ${styles.hostCommitmentPanel}`}>
+            <span className={styles.cardLabel}>THE HOST COMMITS</span>
+            {hostCommitments.map(({ title, copy, icon: Icon }) => (
+              <div className={styles.commitmentItem} key={title}>
+                <Icon aria-hidden="true" size={20} />
+                <div><strong>{title}</strong><span>{copy}</span></div>
+              </div>
+            ))}
           </article>
+        </div>
+
+        <div className={styles.networkDefinition}>
+          <div className={styles.definitionLead}>
+            <Network aria-hidden="true" size={24} />
+            <div><span>WHY IT IS A NETWORK</span><strong>Every contract adds recurring distribution to the same platform.</strong></div>
+          </div>
+          <div className={styles.networkEffect}>
+            {networkEffect.map((item, index) => (
+              <div className={styles.effectStep} key={item.label}>
+                <div><strong>{item.value}</strong><span>{item.label}</span></div>
+                {index < networkEffect.length - 1 && <ArrowRight aria-hidden="true" size={20} />}
+              </div>
+            ))}
+          </div>
         </div>
 
         <aside className={styles.emvNote}>
@@ -191,7 +217,7 @@ export function InvestmentBenchmark() {
             <span>MODELLED DISTRIBUTION VALUE</span>
             <strong>18-Host recalculation in progress</strong>
           </div>
-          <p>Earned Media Value is an estimate of contracted social distribution—not cash revenue or contract income.</p>
+          <p>Earned Media Value estimates the contracted social distribution—not cash revenue or contract income.</p>
         </aside>
       </section>
 
@@ -199,7 +225,7 @@ export function InvestmentBenchmark() {
         <div className={styles.sectionIntro}>
           <p className={styles.eyebrow}>PROOF TODAY</p>
           <h2>The network already has <span>momentum.</span></h2>
-          <p>Award-winning product quality, 18 Hosts and audiences spending around five minutes inside live Tours.</p>
+          <p>Independent product recognition, 18 contracted Hosts and engagement that holds attention.</p>
         </div>
 
         <div className={styles.proofFeatureGrid}>
@@ -227,29 +253,25 @@ export function InvestmentBenchmark() {
           </article>
 
           <div className={styles.engagementPanel}>
-            <div className={styles.engagementHeadline}>
-              <div><Eye aria-hidden="true" size={22} /><span>TOUR ENGAGEMENT</span></div>
+            <article className={styles.engagementMetric}>
+              <div><Users aria-hidden="true" size={22} /><span>AVERAGE USER TIME</span></div>
+              <strong>5+ <small>minutes</small></strong>
+              <p>Current reported Tour averages range from 5:00 to 5:35.</p>
+            </article>
+            <article className={`${styles.engagementMetric} ${styles.viewsMetric}`}>
+              <div><Eye aria-hidden="true" size={22} /><span>TOUR VIEWS</span></div>
               <strong>36,423</strong>
-              <p>views · January–August 2026</p>
-            </div>
-            <div className={styles.engagementList}>
-              {engagementMetrics.map((metric) => (
-                <article key={metric.name}>
-                  <Clock3 aria-hidden="true" size={18} />
-                  <div><span>{metric.name}</span><small>{metric.note}</small></div>
-                  <strong>{metric.value}</strong>
-                </article>
-              ))}
-            </div>
+              <p>January–August 2026</p>
+            </article>
           </div>
         </div>
 
         <div className={styles.hostHeader}>
           <div>
-            <span className={styles.cardLabel}>THE NETWORK</span>
-            <h3>18 Hosts. One growing asset.</h3>
+            <span className={styles.cardLabel}>THE DISTRIBUTION NETWORK</span>
+            <h3>18 contracted Hosts. One growing asset.</h3>
           </div>
-          <p>Sport · charities · venues · creators</p>
+          <p>Each partnership adds an official audience channel</p>
         </div>
 
         <div className={styles.hostGrid} aria-label="Letiverse Hosts">
@@ -266,7 +288,7 @@ export function InvestmentBenchmark() {
                 <strong>{host.name}</strong>
                 <span>{host.category}</span>
               </div>
-              <small data-status={host.status}>{host.status}</small>
+              <small><Share2 aria-hidden="true" size={11} /> Contracted Host</small>
             </article>
           ))}
         </div>

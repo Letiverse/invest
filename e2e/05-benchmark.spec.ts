@@ -14,16 +14,23 @@ test.describe('investment benchmark homepage', () => {
     await expect(page.getByRole('link', { name: /enter the winning tour/i }).first()).toBeVisible()
   })
 
-  test('contains all 18 Hosts including Club AUsome', async ({ page }) => {
+  test('contains all 18 contracted Hosts including Club AUsome', async ({ page }) => {
     const hostGrid = page.getByLabel('Letiverse Hosts')
     await expect(hostGrid.locator('article')).toHaveCount(18)
     await expect(hostGrid.getByText('Club AUsome')).toBeVisible()
     await expect(hostGrid.getByText('Autism charity')).toBeVisible()
+    await expect(hostGrid.getByText('Contracted Host')).toHaveCount(18)
+    await expect(hostGrid.getByText(/^Live$/)).toHaveCount(0)
+    await expect(hostGrid.getByText(/^Preview$/)).toHaveCount(0)
   })
 
-  test('keeps all core content available without autoplay or a welcome gate', async ({ page }) => {
-    await expect(page.getByText('We build it. Hosts grow it.')).toBeAttached()
-    await expect(page.getByText('The network already has momentum.')).toBeAttached()
+  test('makes the weekly multi-year Host partnership explicit without a welcome gate', async ({ page }) => {
+    await expect(page.getByText('One contract. Weekly distribution.')).toBeAttached()
+    await expect(page.getByText('One official social post')).toBeAttached()
+    await expect(page.getByText('every week', { exact: true }).first()).toBeAttached()
+    await expect(page.getByText('for the full contract term')).toBeAttached()
+    await expect(page.getByText(/every contract adds recurring distribution/i)).toBeAttached()
+    await expect(page.getByText('AVERAGE USER TIME')).toBeAttached()
     await expect(page.locator('iframe')).toHaveCount(0)
     await expect(page.locator('video')).toHaveCount(0)
     await expect(page.getByText(/^Begin$/i)).toHaveCount(0)
@@ -40,20 +47,29 @@ test.describe('investment benchmark homepage', () => {
     expect(dimensions.scrollHeight).toBeGreaterThan(dimensions.innerHeight * 2)
     expect(dimensions.scrollWidth).toBeLessThanOrEqual(dimensions.clientWidth + 1)
 
-    await page.getByRole('link', { name: /see how the network works/i }).click()
+    await page.getByRole('link', { name: /see the host partnership/i }).click()
     await expect(page).toHaveURL(/#model$/)
-    await expect(page.getByRole('heading', { level: 2, name: /we build it/i })).toBeVisible()
+    await expect(page.getByRole('heading', { level: 2, name: /one contract/i })).toBeVisible()
   })
 
   test('retains the complete story on a 375-pixel mobile viewport', async ({ page }) => {
     await page.setViewportSize({ width: 375, height: 812 })
     await page.reload()
     await expect(page.getByRole('heading', { level: 1, name: /digital network for real-world venues/i })).toBeVisible()
-    await expect(page.getByText('We build it. Hosts grow it.')).toBeAttached()
+    await expect(page.getByText('One contract. Weekly distribution.')).toBeAttached()
     await expect(page.getByText('The network already has momentum.')).toBeAttached()
 
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth)
     expect(overflow).toBeLessThanOrEqual(1)
+  })
+
+  test('stops explanatory motion when reduced motion is requested', async ({ page }) => {
+    await page.emulateMedia({ reducedMotion: 'reduce' })
+    await page.reload()
+
+    await expect(page.locator('[data-motion="signal-dot"]').first()).toHaveCSS('display', 'none')
+    await expect(page.locator('[data-motion="signal-path"]')).toHaveCSS('animation-name', 'none')
+    await expect(page.locator('[data-motion="contract-pulse"]')).toHaveCSS('animation-name', 'none')
   })
 
   test('loads the visible visual evidence successfully', async ({ page }) => {
