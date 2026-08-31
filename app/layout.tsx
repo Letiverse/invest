@@ -95,7 +95,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://stream.mux.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://stream.mux.com" />
       </head>
-      <body className="h-full overflow-hidden bg-[#050D1C] text-white">
+      <body className="min-h-full overflow-x-hidden bg-[#050D1C] text-white">
         {/* Skip navigation — WCAG 2.4.1 */}
         <a
           href="#deck-main"
